@@ -42,7 +42,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onSubmit": "{{model_master.run()}}",
+  "onSubmit": "{{Query1.run()}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
