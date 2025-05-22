@@ -1,0 +1,42 @@
+SELECT 
+    `maya_produce2`.`dcode` AS `dcode`,
+    `maya_produce2`.`ddcode` AS `ddcode`,
+    `maya_produce2`.`ddname` AS `ddname`,
+    `maya_produce2`.`ddeng` AS `ddeng`,
+    `maya_produce2`.`dtype` AS `dtype`,
+    `maya_produce2`.`dpic` AS `dpic`,
+    `maya_produce2`.`dlo6` AS `dlo6`,
+    `maya_produce2`.`dlo3` AS `dlo3`,
+    `maya_produce2`.`dlo7` AS `dlo7`,
+    `maya_produce2`.`dlo4` AS `dlo4`,
+
+    -- รวม in_qtn จาก 3 สาขา
+    COALESCE(SUM(CASE WHEN `skreal` = 'พันท้าย' THEN `in_qtn` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'พระราม2' THEN `in_qtn` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'บางเลน17' THEN `in_qtn` END), 0) AS `in_qtn`,
+
+    -- รวม out_qtn จาก 3 สาขา
+    COALESCE(SUM(CASE WHEN `skreal` = 'พันท้าย' THEN `out_qtn` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'พระราม2' THEN `out_qtn` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'บางเลน17' THEN `out_qtn` END), 0) AS `out_qtn`,
+
+    -- Total คงเหลือแยกตามสาขา
+    COALESCE(SUM(CASE WHEN `skreal` = 'พันท้าย' THEN `total` END), 0) AS `sk1`,
+    COALESCE(SUM(CASE WHEN `skreal` = 'พระราม2' THEN `total` END), 0) AS `sk2`,
+    COALESCE(SUM(CASE WHEN `skreal` = 'บางเลน17' THEN `total` END), 0) AS `sk3`,
+
+    -- รวมคงเหลือทั้งหมดจากทั้ง 3 สาขา
+    COALESCE(SUM(CASE WHEN `skreal` = 'พันท้าย' THEN `total` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'พระราม2' THEN `total` END), 0) +
+    COALESCE(SUM(CASE WHEN `skreal` = 'บางเลน17' THEN `total` END), 0) AS `total`
+
+FROM 
+    `maya_produce2`
+
+
+WHERE
+  dcode LIKE CONCAT('%', {{Input2.text}}, '%')
+  OR ddcode LIKE CONCAT('%', {{Input2.text}}, '%')
+
+ORDER BY 
+    `maya_produce2`.`ddname` DESC;

@@ -1,0 +1,19 @@
+SELECT
+  s.id,
+  s.date,
+  s.`custom code`,
+  s.`product code`,
+  s.`Piece-qtn`,  
+  s.`piece-price`,
+	(s.`Piece-qtn` * s.`piece-price`) AS total_price, 
+  s.print,
+  s.`sale code`,
+  m.code,
+  c.name
+FROM `2020`.`saka` s
+LEFT JOIN `2020`.`model` m
+  ON s.`product code` = m.dcode
+LEFT JOIN `2020`.`kaddname` c
+  ON s.`custom code` = c.code
+ORDER BY s.id DESC
+LIMIT 10;

@@ -1,0 +1,11 @@
+UPDATE `2020`.`saka`
+SET
+  `date` = '{{Table1.updatedRow.date}}',
+  `custom code` = '{{Table1.updatedRow["custom code"]}}',
+  `product code` = '{{Table1.updatedRow["product code"]}}',
+  `Piece-qtn` = '{{Table1.updatedRow["Piece-qtn"]}}',
+  `piece-price` = '{{Table1.updatedRow["piece-price"]}}',
+  `print` = '{{Table1.updatedRow["print"]}}',
+  `sale code` = '{{Table1.updatedRow["sale code"]}}'
+WHERE
+  `id` = {{Table1.updatedRow.id}};

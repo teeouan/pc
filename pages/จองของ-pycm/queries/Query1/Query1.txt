@@ -1,0 +1,23 @@
+SELECT
+    s.id,
+    s.date,
+    s.faccode,
+    s.shcode,
+    s.`custom code`,
+    s.`Product code`,
+    s.`Piece-qtn`,
+    s.`rmb`,
+    s.print,
+		s.`note`,
+    c.name AS fac_name,
+    m.code
+FROM
+    `2020`.`mayastock-in` s
+LEFT JOIN `2020`.`kaddname` c ON s.`faccode` = c.code
+LEFT JOIN `2020`.`model` m ON s.`Product code` = m.dcode
+WHERE
+    s.shcode = 218666
+		AND s.faccode != 0
+ORDER BY
+    s.id DESC
+LIMIT 3000;

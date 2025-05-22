@@ -1,0 +1,1 @@
+SELECT * FROM kaddname WHERE code = '{{costomcode.text}}' LIMIT 100;

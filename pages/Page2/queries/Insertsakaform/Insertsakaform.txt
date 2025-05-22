@@ -1,0 +1,20 @@
+INSERT INTO `2020`.`saka`
+(
+  `date`,
+  `custom code`,
+  `product code`,
+  `Piece-qtn`,
+  `piece-price`,
+  `print`,
+  `sale code`
+)
+VALUES
+(
+  CURRENT_DATE,
+  '{{costomcode.text}}',
+  '{{modelcode.text}}',
+  '{{priecs.text}}',
+  '{{price.text}}',
+  '{{print.text}}',
+  '{{salecode.text}}'
+);
