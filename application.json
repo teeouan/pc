@@ -44,10 +44,6 @@
     {
       "id": "login",
       "isDefault": false
-    },
-    {
-      "id": "pycm",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 77,
+  "bottomRow": 13,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -15,6 +15,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onTextChanged"
@@ -36,7 +37,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 20,
+  "leftColumn": 11,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -45,7 +46,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 69,
   "needsErrorInfo": false,
-  "onSubmit": "{{Api2.run().then(() => {});}}",
+  "onSubmit": "{{Api2.run().then(() => {});\nApi1.run()}}",
   "onTextChanged": "",
   "originalBottomRow": 77,
   "originalTopRow": 70,
@@ -53,11 +54,11 @@
   "parentId": "qkktop04f8",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
+  "resetOnSubmit": false,
   "responsiveBehavior": "fill",
-  "rightColumn": 40,
+  "rightColumn": 31,
   "showStepArrows": false,
-  "topRow": 70,
+  "topRow": 6,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "pcvzfyofrp",

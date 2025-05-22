@@ -50,7 +50,7 @@
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
-  "defaultSearchText": "เครื่องบรรจุ",
+  "defaultSearchText": "{{Inputgoogle.text}}",
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
     0
@@ -65,9 +65,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "tableData"
     },
     {
       "key": "primaryColumns.id.computedValue"
@@ -89,6 +86,12 @@
     },
     {
       "key": "primaryColumns.price.computedValue"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "defaultSearchText"
     }
   ],
   "dynamicPropertyPathList": [
@@ -122,7 +125,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onSearchTextChanged": "{{Api1.run()}}",
+  "onSearchTextChanged": "",
   "originalBottomRow": 66,
   "originalTopRow": 5,
   "parentColumnSpace": 6.84375,
@@ -366,7 +369,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{Api1.data}}",
   "textSize": "0.875rem",
-  "topRow": 5,
+  "topRow": 14,
   "totalRecordsCount": "0",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

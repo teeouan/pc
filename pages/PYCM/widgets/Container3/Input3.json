@@ -43,6 +43,8 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onSubmit": "{{Query1.run()}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
   "parentColumnSpace": 7.1171875,
   "parentId": "4i5e16rp13",
   "parentRowSpace": 10,
