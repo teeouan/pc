@@ -31,7 +31,7 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "onClick": "{{copyToClipboard(Iframe1.messageMetadata);}}",
+  "onClick": "{{copyToClipboard(Text1.text);}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
