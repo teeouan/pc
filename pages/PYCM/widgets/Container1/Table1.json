@@ -53,7 +53,8 @@
   "columnWidthMap": {
     "dcode": 96,
     "ddcode": 174,
-    "dpic": 70
+    "dpic": 70,
+    "total": 72
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -668,7 +669,7 @@
   "tableData": "{{maya_produce1allsum.data}}",
   "textSize": "0.875rem",
   "topRow": 13,
-  "totalRecordsCount": "3",
+  "totalRecordsCount": "0",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

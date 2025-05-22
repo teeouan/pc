@@ -33,10 +33,22 @@ SELECT
 FROM 
     `maya_produce2`
 
-
 WHERE
-  dcode LIKE CONCAT('%', {{Input2.text}}, '%')
-  OR ddcode LIKE CONCAT('%', {{Input2.text}}, '%')
+    `dcode`   LIKE CONCAT('%', {{Input2.text}}, '%') 
+    OR `ddcode` LIKE CONCAT('%', {{Input2.text}}, '%') 
+    OR `ddname` LIKE CONCAT('%', {{Input2.text}}, '%') 
+
+GROUP BY 
+    `maya_produce2`.`dcode`,
+    `maya_produce2`.`ddcode`,
+    `maya_produce2`.`ddname`,
+    `maya_produce2`.`ddeng`,
+    `maya_produce2`.`dtype`,
+    `maya_produce2`.`dpic`,
+    `maya_produce2`.`dlo6`,
+    `maya_produce2`.`dlo3`,
+    `maya_produce2`.`dlo7`,
+    `maya_produce2`.`dlo4`
 
 ORDER BY 
     `maya_produce2`.`ddname` DESC;
