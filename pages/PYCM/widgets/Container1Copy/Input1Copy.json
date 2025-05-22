@@ -42,7 +42,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onSubmit": "{{model2master.run()}}",
+  "onSubmit": "{{pycm_model.run()}}",
   "parentColumnSpace": 19.8125,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,

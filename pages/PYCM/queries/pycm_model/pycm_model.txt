@@ -1,7 +1,7 @@
 SELECT DISTINCT * 
 FROM model 
 WHERE 
-  code LIKE CONCAT('%', {{Input1.text}}, '%') 
-  OR dcode LIKE CONCAT('%', {{Input1.text}}, '%') 
-  OR name LIKE CONCAT('%', {{Input1.text}}, '%') 
+  code LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
+  OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
+  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
 LIMIT 100;
