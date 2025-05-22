@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select max(`maya_raw_stock1sum`.`expdate`) AS `expdate`,`maya_raw_stock1sum`.`saka` AS `saka`,`maya_raw_stock1sum`.`pcode` AS `pcode`,`maya_raw_stock1sum`.`modelcode` AS `modelcode`,`maya_raw_stock1sum`.`modelname` AS `modelname`,`maya_raw_stock1sum`.`eng` AS `eng`,`maya_raw_stock1sum`.`pic` AS `pic`,`maya_raw_stock1sum`.`pH` AS `pH`,`maya_raw_stock1sum`.`use` AS `use`,`maya_raw_stock1sum`.`solvent` AS `solvent`,`maya_raw_stock1sum`.`properties` AS `properties`,`maya_raw_stock1sum`.`method` AS `method`,`maya_raw_stock1sum`.`use_p` AS `use_p`,`maya_raw_stock1sum`.`for` AS `for`,`maya_raw_stock1sum`.`cost_u` AS `cost_u`,`maya_raw_stock1sum`.`cost` AS `cost`,sum(`maya_raw_stock1sum`.`sin`) AS `sin`,sum(`maya_raw_stock1sum`.`sout`) AS `sout`,sum(`maya_raw_stock1sum`.`total`) AS `total`,coalesce(sum(case when `maya_raw_stock1sum`.`saka` = 'พันท้าย' then `maya_raw_stock1sum`.`total` end),0) AS `sk1`,coalesce(sum(case when `maya_raw_stock1sum`.`saka` = 'พระราม2' then `maya_raw_stock1sum`.`total` end),0) AS `sk2`,coalesce(sum(case when `maya_raw_stock1sum`.`saka` = 'บางเลน17' then `maya_raw_stock1sum`.`total` end),0) AS `sk3` from `maya_raw_stock1sum` group by `maya_raw_stock1sum`.`pcode`",
+      "body": "SELECT \n    MAX(`maya_raw_stock1sum`.`expdate`) AS `expdate`,\n    `maya_raw_stock1sum`.`saka` AS `saka`,\n    `maya_raw_stock1sum`.`pcode` AS `pcode`,\n    `maya_raw_stock1sum`.`modelcode` AS `modelcode`,\n    `maya_raw_stock1sum`.`modelname` AS `modelname`,\n    `maya_raw_stock1sum`.`eng` AS `eng`,\n    `maya_raw_stock1sum`.`pic` AS `pic`,\n    `maya_raw_stock1sum`.`pH` AS `pH`,\n    `maya_raw_stock1sum`.`use` AS `use`,\n    `maya_raw_stock1sum`.`solvent` AS `solvent`,\n    `maya_raw_stock1sum`.`properties` AS `properties`,\n    `maya_raw_stock1sum`.`method` AS `method`,\n    `maya_raw_stock1sum`.`use_p` AS `use_p`,\n    `maya_raw_stock1sum`.`for` AS `for`,\n    `maya_raw_stock1sum`.`cost_u` AS `cost_u`,\n    `maya_raw_stock1sum`.`cost` AS `cost`,\n\n    -- ปริมาณรวม\n    SUM(`maya_raw_stock1sum`.`sin`) AS `sin`,\n    SUM(`maya_raw_stock1sum`.`sout`) AS `sout`,\n    SUM(`maya_raw_stock1sum`.`total`) AS `total`,\n\n    -- คงเหลือแต่ละคลัง\n    COALESCE(SUM(CASE WHEN `saka` = 'พันท้าย' THEN `total` END), 0) AS `sk1`,\n    COALESCE(SUM(CASE WHEN `saka` = 'พระราม2' THEN `total` END), 0) AS `sk2`,\n    COALESCE(SUM(CASE WHEN `saka` = 'บางเลน17' THEN `total` END), 0) AS `sk3`\n\nFROM \n    `maya_raw_stock1sum`\n\nWHERE\n    (\n      `pcode`      LIKE CONCAT('%', {{Input3.text}}, '%')\n      OR `modelcode` LIKE CONCAT('%', {{Input3.text}}, '%')\n      OR `modelname` LIKE CONCAT('%', {{Input3.text}}, '%')\n      OR `eng`       LIKE CONCAT('%', {{Input3.text}}, '%')\n    )\n\nGROUP BY \n    `maya_raw_stock1sum`.`pcode`\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "2020",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": false,
     "name": "Query1",
     "pageId": "PYCM",
