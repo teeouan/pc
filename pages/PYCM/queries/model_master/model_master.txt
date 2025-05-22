@@ -41,9 +41,9 @@ WHERE
     `maya_productlist`.`ok` <> ''
     AND `model_maya`.`code` NOT LIKE '%my-d%'
 		AND (
-        `maya_productlist`.`dcode` LIKE CONCAT('%', {{Input4.text}}, '%') OR
-        `model_maya`.`code` LIKE CONCAT('%', {{Input4.text}}, '%') OR
-        `model_maya`.`name` LIKE CONCAT('%', {{Input4.text}}, '%')
+        `maya_productlist`.`dcode` LIKE CONCAT('%', {{Input1Copy.text}}, '%') OR
+        `model_maya`.`code` LIKE CONCAT('%', {{Input1Copy.text}}, '%') OR
+        `model_maya`.`name` LIKE CONCAT('%', {{Input1Copy.text}}, '%')
     )
 
 GROUP BY 
