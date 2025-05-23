@@ -136,10 +136,10 @@
   "columnUpdatedAt": 1746674071653,
   "columnWidthMap": {
     "_1000pcs": 89,
-    "code": 121,
+    "code": 174,
     "dcode": 73,
     "id": 69,
-    "pic": 64
+    "pic": 60
   },
   "compactMode": "DEFAULT",
   "customIsLoading": false,
@@ -3842,7 +3842,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 38,
+  "rightColumn": 42,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
