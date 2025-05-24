@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n    s.id,\n    s.date,\n    s.faccode,\n    s.shcode,\n    s.`custom code`,\n    s.`Product code`,\n    s.`Piece-qtn`,\n    s.`rmb`,\n    s.print,\n\t\ts.`note`,\n    c.name AS fac_name,\n    m.code\nFROM\n    `2020`.`mayastock-in` s\nLEFT JOIN `2020`.`kaddname` c ON s.`faccode` = c.code\nLEFT JOIN `2020`.`model` m ON s.`Product code` = m.dcode\nWHERE\n    s.shcode = 218666\n\t\tAND s.faccode != 0\nORDER BY\n    s.id DESC\nLIMIT 3000;",
+      "body": "SELECT\n    s.id,\n    s.date,\n    s.faccode,\n    s.shcode,\n    s.`custom code`,\n    s.`Product code`,\n    s.`Piece-qtn`,\n    s.`rmb`,\n    s.print,\n\t\ts.`note`,\n    c.name AS fac_name,\n    m.code\nFROM\n    `2020`.`mayastock-in` s\nLEFT JOIN `2020`.`kaddname` c ON s.`faccode` = c.code\nLEFT JOIN `2020`.`model` m ON s.`Product code` = m.dcode\nWHERE\n    s.shcode = 218666\n\t\t-- AND s.faccode != 0\nORDER BY\n    s.id DESC\nLIMIT 3000;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
