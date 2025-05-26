@@ -192,9 +192,6 @@
       "key": "primaryColumns.cost_u.computedValue"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.id.computedValue"
     },
     {
@@ -460,6 +457,9 @@
     },
     {
       "key": "primaryColumns.daten.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -3846,7 +3846,7 @@
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
-  "tableData": "{{Query2.data}}",
+  "tableData": "{{checkprice.data}}",
   "textSize": "1rem",
   "topRow": 13,
   "totalRecordsCount": 0,

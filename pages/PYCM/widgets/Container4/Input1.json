@@ -51,7 +51,7 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onFocus": "",
-  "onSubmit": "{{Query2.run()}}",
+  "onSubmit": "{{checkprice.run()}}",
   "onTextChanged": "",
   "parentColumnSpace": 10.0576171875,
   "parentId": "d2p79q6knk",
