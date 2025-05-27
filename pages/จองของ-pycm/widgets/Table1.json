@@ -428,7 +428,7 @@
       "isVisible": true,
       "label": "note",
       "notation": "standard",
-      "onSubmit": "{{Update1.run()}}",
+      "onSubmit": "{{Update1.run().then(() => {});}}",
       "originalId": "note",
       "sticky": "",
       "textSize": "0.875rem",
