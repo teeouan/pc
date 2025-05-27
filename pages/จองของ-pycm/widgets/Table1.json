@@ -46,7 +46,7 @@
     "shcode",
     "note"
   ],
-  "columnUpdatedAt": 1748329439870,
+  "columnUpdatedAt": 1748330947046,
   "columnWidthMap": {
     "EditActions1": 203,
     "Piece_qtn": 60,
@@ -428,7 +428,7 @@
       "isVisible": true,
       "label": "note",
       "notation": "standard",
-      "onSubmit": "{{Update1.run().then(() => {});}}",
+      "onSubmit": "{{JSObject2.updateMultipleNotes();}}",
       "originalId": "note",
       "sticky": "",
       "textSize": "0.875rem",
