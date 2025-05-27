@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "681837a3d01125478949ff12_1812f985-2837-4648-97e3-e58644b6a637",
+  "gitSyncId": "681837a3d01125478949ff12_cfde0f84-a572-4d34-a064-931e6a198c9d",
   "id": "จองของ-pycm_JSObject1.checkLogin",
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "JSObject1.checkLogin",
     "name": "checkLogin",
     "pageId": "จองของ-pycm",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

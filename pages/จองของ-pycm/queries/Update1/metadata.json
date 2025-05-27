@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE `2020`.`mayastock-in`\nSET \n  note = {{Table1.updatedRows[0].updatedFields.note}},\n  print = {{Table1.updatedRows[0].updatedFields.print}},\n  faccode = {{Table1.updatedRows[0].updatedFields.faccode}}\nWHERE id = {{Table1.updatedRows[0].id}};",
+      "body": "UPDATE `2020`.`mayastock-in`\nSET \n  note = {{Table1.selectedRow.note}},\n  print = {{Table1.selectedRow.print}},\n  faccode = {{Table1.selectedRow.faccode}}\nWHERE id = {{Table1.selectedRow.id}};\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

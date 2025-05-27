@@ -1,0 +1,12 @@
+UPDATE `2020`.`mayastock-in`
+SET
+  note = CASE
+    {{Table1.updatedRows.map((row) => `WHEN id = ${row.id} THEN '${row.updatedFields.note !== undefined ? row.updatedFields.note : row.allFields.note}'`).join('\n')}}
+  END,
+  print = CASE
+    {{Table1.updatedRows.map((row) => `WHEN id = ${row.id} THEN '${row.updatedFields.print !== undefined ? row.updatedFields.print : row.allFields.print}'`).join('\n')}}
+  END,
+  faccode = CASE
+    {{Table1.updatedRows.map((row) => `WHEN id = ${row.id} THEN '${row.updatedFields.faccode !== undefined ? row.updatedFields.faccode : row.allFields.faccode}'`).join('\n')}}
+  END
+WHERE id IN ({{Table1.updatedRows.map((row) => row.id).join(',')}});
