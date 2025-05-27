@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE `2020`.`mayastock-in`\nSET note = '{{note}}'\nWHERE id = {{id}};",
+      "body": "UPDATE 2020.mayastock-in\nSET note = '{{Table1.updatedRow.note}}'\nWHERE id = {{Table1.selectedRow.id}};  ",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

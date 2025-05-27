@@ -428,7 +428,7 @@
       "isVisible": true,
       "label": "note",
       "notation": "standard",
-      "onSubmit": "{{JSObject2.updateMultipleNotes();}}",
+      "onSubmit": "{{Update1.run().then(() => {\n  showAlert('อัพเดทผ่าน', 'success');\n});}}",
       "originalId": "note",
       "sticky": "",
       "textSize": "0.875rem",
