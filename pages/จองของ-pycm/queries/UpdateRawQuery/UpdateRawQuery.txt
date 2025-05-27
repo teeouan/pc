@@ -1,1 +1,6 @@
-{{this.params.sql}}
+UPDATE `2020`.`mayastock-in`
+SET
+  note = {{note}},
+  print = {{print}},
+  faccode = {{faccode}}
+WHERE id = {{id}};

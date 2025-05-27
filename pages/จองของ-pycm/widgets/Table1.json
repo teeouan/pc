@@ -435,7 +435,7 @@
       "isVisible": true,
       "label": "note",
       "notation": "standard",
-      "onSubmit": "{{UpdateDynamic1.runDynamicUpdate();}}",
+      "onSubmit": "{{UpdateDynamic1.runUpdate();}}",
       "originalId": "note",
       "sticky": "",
       "textSize": "0.875rem",
