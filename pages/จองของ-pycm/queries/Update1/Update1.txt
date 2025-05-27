@@ -1,3 +1,6 @@
 UPDATE `2020`.`mayastock-in`
-SET note = {{Table1.updatedRows[0].updatedFields.note}}
+SET 
+  note = {{Table1.updatedRows[0].updatedFields.note}},
+  print = {{Table1.updatedRows[0].updatedFields.print}},
+  faccode = {{Table1.updatedRows[0].updatedFields.faccode}}
 WHERE id = {{Table1.updatedRows[0].id}};

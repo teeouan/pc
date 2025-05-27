@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "681837a3d01125478949ff12_4e166dea-6102-4a9c-89c0-5a6644f516c3",
-  "id": "จองของ-pycm_Update1",
+  "gitSyncId": "681837a3d01125478949ff12_b51a489c-0dab-4f30-9146-1bf6be9170c7",
+  "id": "จองของ-pycm_UpdateRawQuery",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE `2020`.`mayastock-in`\nSET \n  note = {{Table1.updatedRows[0].updatedFields.note}},\n  print = {{Table1.updatedRows[0].updatedFields.print}},\n  faccode = {{Table1.updatedRows[0].updatedFields.faccode}}\nWHERE id = {{Table1.updatedRows[0].id}};",
+      "body": "{{this.params.sql}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Update1",
+    "name": "UpdateRawQuery",
     "pageId": "จองของ-pycm",
     "userSetOnLoad": false
   }
