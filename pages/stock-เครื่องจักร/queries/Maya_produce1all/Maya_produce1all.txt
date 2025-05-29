@@ -1,0 +1,79 @@
+SELECT 
+  mp.id AS id,
+  mp.date AS date,
+  mp.lot_id AS plot_id,
+  mp.lot_no AS plot_no,
+
+  mln.lot_id AS mlot_id,
+  mln.lot_no AS mlot_no,
+  mln.qtn AS mlot_no_qtn,
+  mln.dcode AS mdcode,
+
+  mp.fcode AS fcode,
+  kn.name AS fname,
+
+  mp.dcode AS dcode,
+  m.code AS ddcode,
+  m.name AS ddname,
+  m.eng AS ddeng,
+  m.dbale AS dtype,
+  m.pic AS dpic,
+  m.lo6 AS dlo6,
+  m.lo3 AS dlo3,
+  m.lo7 AS dlo7,
+  m.lo4 AS dlo4,
+
+  mp.pcode AS pcode,
+  m1.code AS ppcode,
+  m1.name AS ppname,
+  m1.pic AS ppic,
+  m1.lo6 AS pplo6,
+
+  mp.in_qtn AS in_qtn,
+  mp.qtn AS qtn,
+  mp.in_qtn - mp.qtn AS total,
+  mp.net AS net,
+
+  CASE 
+    WHEN mp.net = 0 THEN 0 
+    ELSE mln.qtn * 1000 / mp.net 
+  END AS qtn_a,
+
+  mp.qtn - 
+  CASE 
+    WHEN mp.net = 0 THEN 0 
+    ELSE mln.qtn * 1000 / mp.net 
+  END AS qtn_b,
+
+  mp.ecode0 AS ecode0,
+  kd0.name AS e0name,
+  mp.ecode1 AS ecode1,
+  kd1.name AS e1name,
+  mp.ecode2 AS ecode2,
+  kd2.name AS e2name,
+
+  mp.print AS print,
+  mp.note AS note,
+  mp.ok AS ok,
+  mp.checker AS checker,
+  mp.saka AS saka,
+  kd4.name AS skname,
+  kd4.realname AS skreal,
+
+  mp.ccode AS ccode,
+  kd5.name AS cname,
+  mp.timestamp AS timestamp
+
+FROM maya_produce mp
+LEFT JOIN model_lot_no mln ON mp.lot_id = mln.lot_id
+LEFT JOIN kaddname kn ON mp.fcode = kn.code
+LEFT JOIN model m ON mp.dcode = m.dcode
+LEFT JOIN model1all m1 ON mp.pcode = m1.dcode
+LEFT JOIN kd01 kd0 ON mp.ecode0 = kd0.code
+LEFT JOIN kd02 kd1 ON mp.ecode1 = kd1.code
+LEFT JOIN kd03 kd2 ON mp.ecode2 = kd2.code
+LEFT JOIN kd04 kd4 ON mp.saka = kd4.code
+LEFT JOIN kd05 kd5 ON mp.ccode = kd5.code
+
+ORDER BY mp.id DESC
+LIMIT 1000;

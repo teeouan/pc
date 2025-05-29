@@ -1,6 +1,7 @@
 {
   "gitSyncId": "681837a3d01125478949ff12_b70a1de4-3f46-4cd0-9990-6dd08bbc292a",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -25,7 +26,7 @@
         }
       }
     ],
-    "name": "Page3",
-    "slug": "page3"
+    "name": "เช็คขอมูลmaya-pycmชุดเคมี",
+    "slug": "maya-pycm"
   }
 }

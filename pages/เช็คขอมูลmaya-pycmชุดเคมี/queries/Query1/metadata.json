@@ -1,6 +1,6 @@
 {
   "gitSyncId": "681837a3d01125478949ff12_2fdbdad6-4ac4-42cb-9318-7cd8a20abcdb",
-  "id": "Page3_Query1",
+  "id": "เช็คขอมูลmaya-pycmชุดเคมี_Query1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": false,
     "name": "Query1",
-    "pageId": "Page3",
+    "pageId": "เช็คขอมูลmaya-pycmชุดเคมี",
     "userSetOnLoad": true
   }
 }
