@@ -1,0 +1,1 @@
+SELECT * FROM model WHERE dcode = '{{Input1.text}}' LIMIT 100;
