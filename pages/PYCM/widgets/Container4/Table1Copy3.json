@@ -3846,7 +3846,7 @@
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
-  "tableData": "{{checkprice.data}}",
+  "tableData": "{{checkprice_real.data}}",
   "textSize": "1rem",
   "topRow": 13,
   "totalRecordsCount": 0,
