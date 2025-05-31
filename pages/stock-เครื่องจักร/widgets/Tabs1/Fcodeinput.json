@@ -3,52 +3,62 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 21,
+  "bottomRow": 8,
   "boxShadow": "none",
-  "defaultText": "เข้า {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    },
+    {
+      "key": "onFocus"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "otncgc4zx2",
-  "label": "print",
+  "label": "fcode",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 45,
+  "leftColumn": 26,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 22,
-  "mobileLeftColumn": 44,
-  "mobileRightColumn": 64,
-  "mobileTopRow": 15,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onBlur": "",
+  "onFocus": "",
+  "onTextChanged": "{{kadname1.run()}}",
   "parentColumnSpace": 10.83203125,
   "parentId": "xjawoqph6n",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
+  "resetOnSubmit": false,
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 42,
   "showStepArrows": false,
-  "topRow": 14,
+  "topRow": 1,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "8uusthm01x",
-  "widgetName": "Input1"
+  "widgetId": "rzpa9i6ew5",
+  "widgetName": "Fcodeinput"
 }

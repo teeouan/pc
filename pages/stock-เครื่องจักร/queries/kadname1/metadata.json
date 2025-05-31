@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "681837a3d01125478949ff12_8c6fbf58-b17b-4837-ba13-f751ec860f43",
-  "id": "stock-เครื่องจักร_model1",
+  "gitSyncId": "681837a3d01125478949ff12_ec4223bd-7612-44d2-8cad-36c4258ac7ea",
+  "id": "stock-เครื่องจักร_kadname1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM model WHERE dcode = '{{ModelInput1.text}}' LIMIT 100;",
+      "body": "SELECT * FROM kaddname WHERE code = '{{Fcodeinput.text}}' LIMIT 100;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "name": "model1",
+    "executeOnLoad": true,
+    "name": "kadname1",
     "pageId": "stock-เครื่องจักร",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

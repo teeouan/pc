@@ -5,13 +5,10 @@
   "borderRadius": "1.5rem",
   "bottomRow": 21,
   "boxShadow": "none",
-  "defaultText": "เข้า {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -20,23 +17,23 @@
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "otncgc4zx2",
-  "label": "print",
+  "label": "จำนวนเข้าสต็อค",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 45,
+  "leftColumn": 26,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 22,
-  "mobileLeftColumn": 44,
-  "mobileRightColumn": 64,
-  "mobileTopRow": 15,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 17,
   "needsErrorInfo": false,
   "parentColumnSpace": 10.83203125,
   "parentId": "xjawoqph6n",
@@ -44,11 +41,11 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 43,
   "showStepArrows": false,
   "topRow": 14,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "8uusthm01x",
-  "widgetName": "Input1"
+  "widgetId": "jevpv32p71",
+  "widgetName": "In_qtnInput1"
 }

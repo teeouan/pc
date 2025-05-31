@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "pq10h2f46a",
-  "leftColumn": 45,
+  "leftColumn": 26,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,15 +41,15 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 42,
   "shouldTruncate": false,
-  "text": "{{ model1.data[0].code }}",
+  "text": "{{ kadname1.data[0].name }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "n8udywmpat",
-  "widgetName": "Text1"
+  "widgetId": "amj1oio80t",
+  "widgetName": "Text1Copy"
 }
