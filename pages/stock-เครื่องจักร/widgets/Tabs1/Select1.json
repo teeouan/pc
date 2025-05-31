@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "พันท้าย",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "db6sdirhmf",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "เลือกสาขา",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 102,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 35,
+  "mobileTopRow": 95,
+  "needsErrorInfo": false,
+  "optionLabel": "skname",
+  "optionValue": "saka",
+  "parentColumnSpace": 19.8125,
+  "parentId": "xjawoqph6n",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 23,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"saka\": \"178461\",\n    \"skname\": \"บางเลน17\"\n  },\n  {\n    \"saka\": \"110253\",\n    \"skname\": \"พันท้าย\"\n  },\n  {\n    \"saka\": \"282715\",\n    \"skname\": \"พระราม2\"\n  }\n]",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "fst5szpqhy",
+  "widgetName": "Select1"
+}

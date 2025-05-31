@@ -18,6 +18,12 @@
   "dynamicTriggerPathList": [
     {
       "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    },
+    {
+      "key": "onFocus"
     }
   ],
   "iconAlign": "left",
@@ -42,6 +48,8 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onBlur": "",
+  "onFocus": "",
   "onTextChanged": "{{model1.run()}}",
   "parentColumnSpace": 10.83203125,
   "parentId": "xjawoqph6n",
