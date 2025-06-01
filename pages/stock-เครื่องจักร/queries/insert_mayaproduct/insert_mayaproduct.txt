@@ -20,21 +20,21 @@ INSERT INTO maya_produce (
 )
 VALUES (
   NULL,                   -- ถ้า id เป็น AUTO_INCREMENT ใส่ NULL หรือไม่ระบุเลย
-  '2025-05-31',           -- date
-  'L001',                 -- lot_id
-  'F001',                 -- fcode
-  'D001',                 -- dcode
-  100,                    -- in_qtn
-  80,                     -- qtn
-  75,                     -- net
-  'E01',                  -- ecode0
-  'E02',                  -- ecode1
-  'E03',                  -- ecode2
-  1,                      -- print (ถ้าเป็น boolean, 0 หรือ 1)
-  'หมายเหตุ',              -- note
-  1,                      -- ok
-  'checker1',             -- checker
-  'SK001',                -- saka
-  'CC001',                -- ccode
+  CURDATE(),           -- date
+  '-1',                 -- lot_id
+  '{{Fcodeinput.text}}',                 -- fcode
+  '{{ModelInput1.text}}',                 -- dcode
+  {{In_qtnInput1.text}},                    -- in_qtn
+  '0',                     -- qtn
+  '0',                     -- net
+  '0',                  -- ecode0
+  '0',                  -- ecode1
+  '{{ecode2Input1.text}}',                  -- ecode2
+  '{{Input1.text}}',                      -- print (ถ้าเป็น boolean, 0 หรือ 1)
+  NULL,              -- note
+  'ok',                      -- ok
+  'no',             -- checker
+  '{{Select1.selectedOptionValue}}',                -- saka
+  '0',                -- ccode
   NOW()                   -- timestamp (ใช้ฟังก์ชัน NOW() ใส่วันที่ปัจจุบัน)
 );

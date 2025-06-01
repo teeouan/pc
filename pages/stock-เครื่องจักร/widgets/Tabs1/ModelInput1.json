@@ -24,7 +24,7 @@
     }
   ],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "NUMBER",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": true,
@@ -55,6 +55,7 @@
   "resetOnSubmit": false,
   "responsiveBehavior": "fill",
   "rightColumn": 61,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
   "topRow": 1,
   "type": "INPUT_WIDGET_V2",

@@ -114,7 +114,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "oho5dhjsdb",
-  "leftColumn": 15,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 15,
   "minWidth": 450,
@@ -128,7 +128,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 51,
+  "rightColumn": 38,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
