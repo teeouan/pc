@@ -22,19 +22,19 @@ VALUES (
   NULL,                   -- ถ้า id เป็น AUTO_INCREMENT ใส่ NULL หรือไม่ระบุเลย
   CURDATE(),           -- date
   '-1',                 -- lot_id
-  '{{Fcodeinput.text}}',                 -- fcode
-  '{{ModelInput1.text}}',                 -- dcode
-  {{In_qtnInput1.text}},                    -- in_qtn
-  '0',                     -- qtn
+  '{{Fcodeinputout.text}}',                 -- fcode
+  '{{ModelInput1out.text}}',                 -- dcode
+  '0',                    -- in_qtn
+  '{{In_qtnInput1out.text}}',                     -- qtn
   '0',                     -- net
   '0',                  -- ecode0
   '0',                  -- ecode1
-  '{{sale_input.text}}',                  -- ecode2
-  '{{Input1.text}}',                      -- print (ถ้าเป็น boolean, 0 หรือ 1)
+  '{{sale_inputout.text}}',                  -- ecode2
+  '{{Input1out.text}}',                      -- print (ถ้าเป็น boolean, 0 หรือ 1)
   NULL,              -- note
   'ok',                      -- ok
   'no',             -- checker
-  '{{Select1.selectedOptionValue}}',                -- saka
+  '{{Select1out.selectedOptionValue}}',                -- saka
   '0',                -- ccode
   NOW()                   -- timestamp (ใช้ฟังก์ชัน NOW() ใส่วันที่ปัจจุบัน)
 );

@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "1.5rem",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    },
+    {
+      "key": "onFocus"
+    }
+  ],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "otncgc4zx2",
+  "label": "fcode",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 25,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minNum": "",
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onBlur": "",
+  "onFocus": "",
+  "onTextChanged": "{{kadname1.run()}}",
+  "parentColumnSpace": 10.83203125,
+  "parentId": "lfpkwxib0b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 2,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{ Fcodeinput.text.length > 0 }}",
+  "version": 2,
+  "widgetId": "v5rqc6biac",
+  "widgetName": "Fcodeinputout"
+}

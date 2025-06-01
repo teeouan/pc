@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5u5165p4ci",
+  "leftColumn": 26,
+  "minWidth": 120,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "onClick": "{{insert_mayaproduct.run().then(() => {\n  Maya_produce1all.run();\n  maya_produce1allsum.run();\n}).catch(() => {\n  showAlert('โปรดใส่ข้อมูลให้ครบ', 'error');\n});}}",
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
+  "parentColumnSpace": 10.83203125,
+  "parentId": "xjawoqph6n",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 42,
+  "text": "Submit",
+  "tooltip": "",
+  "topRow": 27,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "7q9ruekals",
+  "widgetName": "Button3"
+}
