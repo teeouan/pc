@@ -52,7 +52,7 @@
   "showStepArrows": false,
   "topRow": 14,
   "type": "INPUT_WIDGET_V2",
-  "validation": "{{ecode2Input1.text.length > 0}}",
+  "validation": "{{ ecode2Input1.text.length > 0 }}",
   "version": 2,
   "widgetId": "q3uq9its63",
   "widgetName": "ecode2Input1"

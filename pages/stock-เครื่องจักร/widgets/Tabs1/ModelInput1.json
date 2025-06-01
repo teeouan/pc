@@ -9,6 +9,9 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -59,6 +62,7 @@
   "showStepArrows": false,
   "topRow": 1,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ ModelInput1.text.length > 0 }}",
   "version": 2,
   "widgetId": "q12t9wuzrp",
   "widgetName": "ModelInput1"

@@ -9,6 +9,9 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -17,7 +20,7 @@
   "inputType": "NUMBER",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "otncgc4zx2",
   "label": "จำนวนเข้าสต็อค",
@@ -46,6 +49,7 @@
   "showStepArrows": false,
   "topRow": 14,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ In_qtnInput1.text.length > 0 }}",
   "version": 2,
   "widgetId": "jevpv32p71",
   "widgetName": "In_qtnInput1"

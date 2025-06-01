@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 31,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -9,9 +9,6 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -39,7 +36,7 @@
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 42,
   "text": "Submit",
