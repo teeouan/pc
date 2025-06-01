@@ -3,15 +3,18 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 21,
+  "bottomRow": 22,
   "boxShadow": "none",
-  "defaultText": "เข้า {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
+  "defaultText": "เข้า {{appsmith.store.user}} {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "defaultText"
+    },
+    {
+      "key": "labelTextColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -27,6 +30,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 45,
@@ -46,9 +50,9 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 63,
   "showStepArrows": false,
-  "topRow": 14,
+  "topRow": 15,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "8uusthm01x",
