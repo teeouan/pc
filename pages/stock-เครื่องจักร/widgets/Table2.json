@@ -1358,7 +1358,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
+  "serverSidePaginationEnabled": false,
   "tableData": "{{Maya_produce1all.data}}",
   "textSize": "0.875rem",
   "topRow": 2,
