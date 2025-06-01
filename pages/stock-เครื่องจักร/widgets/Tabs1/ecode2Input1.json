@@ -9,6 +9,9 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -29,7 +32,9 @@
   "labelWidth": 5,
   "leftColumn": 3,
   "maxDynamicHeight": 9000,
+  "maxNum": "",
   "minDynamicHeight": 4,
+  "minNum": "",
   "minWidth": 450,
   "mobileBottomRow": 19,
   "mobileLeftColumn": 3,
@@ -47,6 +52,7 @@
   "showStepArrows": false,
   "topRow": 14,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ecode2Input1.text.length > 0}}",
   "version": 2,
   "widgetId": "q3uq9its63",
   "widgetName": "ecode2Input1"

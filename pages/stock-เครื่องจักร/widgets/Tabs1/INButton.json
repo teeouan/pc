@@ -5,7 +5,7 @@
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
-  "disabledWhenInvalid": false,
+  "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -39,7 +39,7 @@
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
+  "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 42,
   "text": "Submit",
