@@ -15,9 +15,13 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
     }
   ],
   "iconAlign": "left",
@@ -42,7 +46,8 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onSubmit": "{{pycm_model.run();\nresetWidget(\"Table1Copy4\", true);}}",
+  "onSubmit": "",
+  "onTextChanged": "{{pycm_model.run();\nresetWidget(\"Table1Copy4\", true);}}",
   "parentColumnSpace": 19.8125,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,

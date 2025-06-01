@@ -83,9 +83,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -226,6 +224,7 @@
   "mobileLeftColumn": 3,
   "mobileRightColumn": 37,
   "mobileTopRow": 11,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
@@ -1362,7 +1361,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{Maya_produce1all.data}}",
   "textSize": "0.875rem",
-  "topRow": 7,
+  "topRow": 2,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
