@@ -1,10 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "#ffffff",
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
-  "borderWidth": 1,
+  "borderWidth": "",
   "bottomRow": 84,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "children": [
@@ -100,14 +100,18 @@
       "widgetName": "Canvas2"
     }
   ],
-  "defaultTab": "stock-in",
+  "defaultTab": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
@@ -122,6 +126,7 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 46,
   "needsErrorInfo": false,
+  "onTabSelected": "",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
