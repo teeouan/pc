@@ -1,6 +1,6 @@
 select 
   `2020`.`mayastock-in`.`id` AS `id`,
-  DATE_FORMAT(`mayastock-in`.`date`,'%d/%m/%Y') AS `date`,
+  DATE_FORMAT(`mayastock-in`.`date`,'%d/%m/%Y') AS `datef`,
  -- `mayastock-in`.`date1` AS `date1`,
  -- date_format(`mayastock-in`.`date`,'%Y-%m') AS `month`,
  -- date_format(`mayastock-in`.`date`,'%Y') AS `yyyy`,
