@@ -1,0 +1,12 @@
+INSERT INTO `mayastock-in`
+(`custom code`, `Product code`, `weight`, `sale code`, `date`, `Piece-qtn`, `print`, `shop`)
+VALUES (
+  {{ Number(ccode.text) || 0 }},
+  {{ Number(dcode.text) || 0 }},
+  {{ Number(weight.text) || 0 }},
+  '{{appsmith.store.user}}',
+  CURRENT_DATE(),
+  1,
+  'รอสั่ง',
+	'maya'
+);
