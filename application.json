@@ -57,6 +57,10 @@
     {
       "id": "stock-เครื่องจักร",
       "isDefault": false
+    },
+    {
+      "id": "maya_purchase",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
