@@ -1,6 +1,6 @@
 export default {
   async Button1onClick () {
-    const res = await Query1.run();
+    const res = await Query2.run();
     
     if (res && res.length > 0) {
       showAlert("เข้าสู่ระบบสำเร็จ", "success");
