@@ -23,9 +23,9 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "Query4",
     "pageId": "PYCM",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "model1",
     "pageId": "stock-เครื่องจักร",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

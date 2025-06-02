@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject1.Button1onClick",
     "name": "Button1onClick",
     "pageId": "login",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

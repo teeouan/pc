@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "insertout_mayaproduct",
     "pageId": "stock-เครื่องจักร",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

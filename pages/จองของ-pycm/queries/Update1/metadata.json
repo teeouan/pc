@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "Update1",
     "pageId": "จองของ-pycm",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -35,9 +35,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "Api1",
     "pageId": "PYCM",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "model",
     "pageId": "Order-bill",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

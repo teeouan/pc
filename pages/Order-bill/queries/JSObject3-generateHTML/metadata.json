@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject3.generateHTML",
     "name": "generateHTML",
     "pageId": "Order-bill",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

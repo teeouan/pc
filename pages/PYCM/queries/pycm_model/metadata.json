@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "pycm_model",
     "pageId": "PYCM",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

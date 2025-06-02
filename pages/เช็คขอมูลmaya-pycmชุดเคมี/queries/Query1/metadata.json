@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "Query1",
     "pageId": "เช็คขอมูลmaya-pycmชุดเคมี",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

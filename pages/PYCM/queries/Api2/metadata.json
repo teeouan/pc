@@ -63,9 +63,9 @@
         "key": "queryParameters[0].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "Api2",
     "pageId": "PYCM",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

@@ -64,9 +64,9 @@
         "key": "formData.textGeneration.input.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "Query3",
     "pageId": "Order-bill",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

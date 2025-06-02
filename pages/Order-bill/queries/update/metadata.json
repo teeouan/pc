@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "update",
     "pageId": "Order-bill",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

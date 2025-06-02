@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "insert_purchase",
     "pageId": "maya_purchase",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
