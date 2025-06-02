@@ -23,9 +23,9 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "mayastock_in_view",
     "pageId": "maya_purchase",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
