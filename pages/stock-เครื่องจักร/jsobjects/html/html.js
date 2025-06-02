@@ -40,7 +40,7 @@ export default {
       bottom: 0;
       left: 0;
       right: 0;
-      height: 100px;
+      height: 20px;
       text-align: center;
       font-size: 20px;
       border-top: 1px solid #ccc;
