@@ -1,6 +1,6 @@
 select 
   `2020`.`mayastock-in`.`id` AS `id`,
-  `mayastock-in`.`date` AS `date`,
+  DATE_FORMAT(`mayastock-in`.`date`,'%d/%m/%Y') AS `date`,
  -- `mayastock-in`.`date1` AS `date1`,
  -- date_format(`mayastock-in`.`date`,'%Y-%m') AS `month`,
  -- date_format(`mayastock-in`.`date`,'%Y') AS `yyyy`,
@@ -81,6 +81,7 @@ select
 
 from ((((((`mayastock-in` left join `model` on(`mayastock-in`.`Product code` = `model`.`dcode`)) left join `kaddname` on(`mayastock-in`.`faccode` = `kaddname`.`code`)) left join `kd01` on(`mayastock-in`.`shcode` = `kd01`.`code`)) left join `kd02` on(`mayastock-in`.`custom code` = `kd02`.`code`)) left join `kd03` on(`mayastock-in`.`sale code` = `kd03`.`code`)) left join `kd04` on(`mayastock-in`.`zcode` = `kd04`.`code`))
 
+where `mayastock-in`.`order-ok` != ''
 ORDER BY
   `mayastock-in`.`id` DESC
-LIMIT 1000;
+LIMIT 150;
