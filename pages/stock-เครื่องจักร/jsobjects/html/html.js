@@ -18,9 +18,9 @@ export default {
             <th>fname</th>
             <th>dcode</th>
             <th>ddcode</th>
-            <th>ddname</th>
-            <th>ddeng</th>
-            <th>dtype</th>
+            <th>เข้า</th>
+            <th>ออก</th>
+						<th>print</th>           
           </tr>
         </thead>
         <tbody>
@@ -35,9 +35,10 @@ export default {
           <td>${row.fname}</td>
           <td>${row.dcode}</td>
           <td>${row.ddcode}</td>
-          <td>${row.ddname}</td>
-          <td>${row.ddeng}</td>
-          <td>${row.dtype}</td>
+          <td>${row.in_qtn}</td>
+          <td>${row.qtn}</td>
+					<td>${row.print}</td>
+
         </tr>
       `;
     });
