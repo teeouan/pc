@@ -18,6 +18,7 @@ LEFT JOIN `2020`.`model` m ON s.`Product code` = m.dcode
 WHERE
     s.shcode = 218666
 		-- AND s.faccode != 0
+    AND s.`Product code` NOT IN (17797, 7140,0)  -- เอารหัสนี้ออกไป
 ORDER BY
     s.id DESC
 LIMIT 3000;
