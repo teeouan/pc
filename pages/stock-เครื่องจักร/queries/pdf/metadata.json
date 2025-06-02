@@ -15,6 +15,7 @@
       "bodyFormData": [
         {
           "key": "html",
+          "type": "Text",
           "value": "{{html.buildHtmlTable.data}}"
         }
       ],
@@ -26,7 +27,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/webhook-test/pdf",
+      "path": "/webhook/pdf",
       "pluginSpecifiedTemplates": [
         {
           "value": true

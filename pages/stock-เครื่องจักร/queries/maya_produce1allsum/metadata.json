@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "maya_produce1allsum",
     "pageId": "stock-เครื่องจักร",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

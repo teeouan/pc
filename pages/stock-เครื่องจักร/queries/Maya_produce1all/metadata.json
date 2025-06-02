@@ -23,9 +23,9 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Maya_produce1all",
     "pageId": "stock-เครื่องจักร",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

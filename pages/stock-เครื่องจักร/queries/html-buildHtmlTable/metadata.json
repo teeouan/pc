@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "html.buildHtmlTable",
     "name": "buildHtmlTable",
     "pageId": "stock-เครื่องจักร",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

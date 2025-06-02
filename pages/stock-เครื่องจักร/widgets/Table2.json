@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "borderWidth": "1",
   "bottomRow": 35,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -66,9 +66,10 @@
     "ccode",
     "cname"
   ],
-  "columnUpdatedAt": 1748765831779,
+  "columnUpdatedAt": 1748845969462,
   "columnWidthMap": {
-    "date": 111,
+    "date": 93,
+    "dcode": 83,
     "ecode2": 89,
     "fcode": 94,
     "fname": 118,
@@ -79,6 +80,7 @@
     "qtn": 85,
     "total": 87
   },
+  "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -88,9 +90,6 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     },
     {
       "key": "boxShadow"
@@ -261,7 +260,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "checker": {
@@ -295,7 +294,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "cname": {
@@ -329,7 +328,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "date": {
@@ -364,7 +363,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "dcode": {
@@ -398,7 +397,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ddcode": {
@@ -432,7 +431,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ddeng": {
@@ -466,7 +465,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ddname": {
@@ -500,7 +499,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "dpic": {
@@ -534,7 +533,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "dtype": {
@@ -568,7 +567,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "e0name": {
@@ -602,7 +601,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "e1name": {
@@ -636,7 +635,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "e2name": {
@@ -670,7 +669,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ecode0": {
@@ -704,7 +703,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ecode1": {
@@ -738,7 +737,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ecode2": {
@@ -772,7 +771,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "fcode": {
@@ -806,7 +805,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "fname": {
@@ -840,7 +839,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "id": {
@@ -874,7 +873,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "in_qtn": {
@@ -908,7 +907,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "net": {
@@ -942,7 +941,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "note": {
@@ -976,7 +975,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "ok": {
@@ -1010,7 +1009,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "plot_id": {
@@ -1044,7 +1043,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "print": {
@@ -1078,7 +1077,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "qtn": {
@@ -1112,7 +1111,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "qtn_a": {
@@ -1146,7 +1145,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "qtn_b": {
@@ -1180,7 +1179,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "saka": {
@@ -1214,7 +1213,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "skname": {
@@ -1248,7 +1247,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "skreal": {
@@ -1282,7 +1281,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "timestamp": {
@@ -1316,7 +1315,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     },
     "total": {
@@ -1350,7 +1349,7 @@
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
+      "verticalAlignment": "TOP",
       "width": 150
     }
   },
@@ -1358,14 +1357,14 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "tableData": "{{Maya_produce1all.data}}",
   "textSize": "0.875rem",
   "topRow": 2,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
-  "verticalAlignment": "CENTER",
+  "verticalAlignment": "TOP",
   "widgetId": "g4q6b2zwep",
   "widgetName": "Table2"
 }

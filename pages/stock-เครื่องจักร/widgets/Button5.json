@@ -32,7 +32,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 37,
   "needsErrorInfo": false,
-  "onClick": "{{jsprint.previewPDF();}}",
+  "onClick": "{{html.buildHtmlTable();\npdf.run().then(() => {\n  navigateTo(pdf.data[0].link, {}, 'NEW_WINDOW');\n});}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
