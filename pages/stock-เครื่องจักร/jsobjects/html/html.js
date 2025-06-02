@@ -20,7 +20,8 @@ export default {
             <th>ddcode</th>
             <th>เข้า</th>
             <th>ออก</th>
-						<th>print</th>           
+						<th>print</th>  
+						<th>สาขา</th>         
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ export default {
           <td>${row.in_qtn}</td>
           <td>${row.qtn}</td>
 					<td>${row.print}</td>
+          <td>${row.saka}-${row.skreal}</td>
 
         </tr>
       `;
