@@ -17,7 +17,7 @@ SELECT
   m.name AS ddname,
   --m.eng AS ddeng,
   --m.dbale AS dtype,
-  --m.pic AS dpic,
+  m.pic AS dpic,
   --m.lo6 AS dlo6,
   --m.lo3 AS dlo3,
   --m.lo7 AS dlo7,
