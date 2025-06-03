@@ -24,7 +24,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue('isLogin', 'false');}}",
+  "onClick": "{{storeValue('isLogin', 'false').then(() => {\n  navigateTo('login', {}, 'SAME_WINDOW');\n});}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
