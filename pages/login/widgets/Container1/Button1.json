@@ -32,7 +32,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onClick": "{{Query1.run().then(() => {\n  JSObject1.Button1onClick();\n  storeValue('isLogin', 'true');\n  navigateTo('Page1', {}, 'SAME_WINDOW');\n  storeValue('user', Input1.text);\n  storeValue('name2', Query2.data[0].name);\n});}}",
+  "onClick": "{{Query2.run().then(() => {\n  JSObject1.Button1onClick();\n  storeValue('isLogin', 'true');\n  navigateTo('Page1', {}, 'SAME_WINDOW');\n  storeValue('user', Input1.text);\n  storeValue('name2', Query2.data[0].name);\n});}}",
   "parentColumnSpace": 7.1171875,
   "parentId": "zvbn08h2sf",
   "parentRowSpace": 10,

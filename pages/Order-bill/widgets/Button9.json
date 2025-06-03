@@ -24,7 +24,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{removeValue(appsmith.store.user).then(() => {\n  JSObject1.checkLogin();\n});}}",
+  "onClick": "{{storeValue('isLogin', 'false');}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
