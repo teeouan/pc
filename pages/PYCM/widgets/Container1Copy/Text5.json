@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 56,
   "shouldTruncate": false,
-  "text": "ราคา {{Table1Copy4.selectedRow.retail}} .-",
+  "text": "ราคา {{Table1Copy4.selectedRow.retail||null}} .-",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 60,
