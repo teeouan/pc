@@ -47,7 +47,7 @@
   "mobileTopRow": 14,
   "needsErrorInfo": false,
   "onSubmit": "",
-  "onTextChanged": "{{pycm_model.run();\nresetWidget(\"Table1Copy4\", true);}}",
+  "onTextChanged": "{{pycm_model.run();\nresetWidget(\"Table1Copy4\", true);\nsearchModelLot.run()}}",
   "parentColumnSpace": 19.8125,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,
