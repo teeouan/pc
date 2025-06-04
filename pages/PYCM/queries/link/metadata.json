@@ -15,7 +15,7 @@
       "bodyFormData": [
         {
           "key": "html",
-          "value": "{{pricejs.buildHtmlTable.data}}"
+          "value": "{{pricejs.buildHtmlTable.data || null}}{{pycmjs.buildHtmlTable.data || null}}"
         },
         {
           "key": "user",

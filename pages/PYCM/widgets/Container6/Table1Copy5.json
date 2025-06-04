@@ -1,5 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -68,7 +69,7 @@
     "viscosity",
     "odor"
   ],
-  "columnUpdatedAt": 1748875618568,
+  "columnUpdatedAt": 1749026268601,
   "columnWidthMap": {
     "Date": 99,
     "brand": 81,
@@ -99,9 +100,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "[\n  0\n]",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -318,11 +317,13 @@
   "mobileLeftColumn": 1,
   "mobileRightColumn": 35,
   "mobileTopRow": 1,
+  "multiRowSelection": false,
   "needsErrorInfo": false,
   "onRowSelected": "{{getDetailByLot.run()}}",
   "parentColumnSpace": 19.8125,
   "parentId": "xnfswo53he",
   "parentRowSpace": 10,
+  "primaryColumnId": "lot_id",
   "primaryColumns": {
     "Date": {
       "alias": "Date",

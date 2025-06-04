@@ -66,9 +66,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -168,10 +166,10 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 34,
   "mobileTopRow": 12,
-  "multiRowSelection": false,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
-  "originalBottomRow": 42,
-  "originalTopRow": 14,
+  "originalBottomRow": 43,
+  "originalTopRow": 15,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,
   "primaryColumnId": "dcode",
