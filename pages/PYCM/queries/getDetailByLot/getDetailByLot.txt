@@ -1,0 +1,29 @@
+SELECT
+  model_mf.phase AS phase,
+  model_mf.id_no AS id_no,
+  model_mf.ddcode AS ddcode,
+  model1all.code AS ddcode1,
+  model1all.name AS ddname,
+  model1all.`2name` AS dd2name,
+  model1all.`eng` AS ddeng,
+  model1all.dbale AS d4,
+  CAST(model1all.cost_u AS DECIMAL(16,4)) AS dd_costu,
+  CAST(model1all.costin AS DECIMAL(16,4)) AS dd_costkg,
+  CAST(COALESCE(model_mf.qtn_per, 0) AS DECIMAL(16,4)) AS qtn_per,
+  CAST(COALESCE(model_mf.qtn_g, 0) AS DECIMAL(16,4)) AS qtn_g,
+  CAST(
+    COALESCE(model_mf.qtn_per, 0) *
+    IF(COALESCE(model1all.cost_u, 0) = 0, model1all.costin / 1000, model1all.cost_u)
+    AS DECIMAL(16,4)
+  ) AS cost_avg,
+  CAST(
+    COALESCE(model_mf.qtn_g, 0) *
+    IF(COALESCE(model1all.cost_u, 0) = 0, model1all.costin / 1000, model1all.cost_u)
+    AS DECIMAL(16,4)
+  ) AS cost_lot,
+  model_mf.note AS note
+FROM model_mf
+LEFT JOIN model ON model_mf.dcode = model.dcode
+LEFT JOIN model1all ON model_mf.ddcode = model1all.dcode
+WHERE model_mf.lot_no = '{{Table1Copy5.selectedRow.lot_no}}'
+ORDER BY model_mf.lot_no DESC , model_mf.phase,model_mf.id_no;

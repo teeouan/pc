@@ -1,0 +1,10 @@
+SELECT * 
+FROM model_lot_no1all_master
+WHERE
+  dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%')
+	OR code LIKE CONCAT('%', {{Input1Copy.text}}, '%')
+  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%')
+  OR nname LIKE CONCAT('%', {{Input1Copy.text}}, '%')
+  OR eng LIKE CONCAT('%', {{Input1Copy.text}}, '%')
+ORDER BY dcode
+LIMIT 100;

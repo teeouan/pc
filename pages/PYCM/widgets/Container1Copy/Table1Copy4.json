@@ -36,26 +36,20 @@
     "code",
     "name",
     "eng",
-    "retail",
-    "sale",
-    "bigwhole",
-    "wholes",
-    "properties",
     "ingredient",
-    "ingredient_s",
-    "method",
-    "use",
-    "s6",
-    "s12",
     "pic",
-    "_2name",
+    "costin",
+    "color",
+    "cost_u",
     "id",
     "date",
     "dcode_a",
-    "costin",
     "costchina",
     "exchange",
     "transport_cost",
+    "sale",
+    "bigwhole",
+    "wholes",
     "_1000pcs",
     "_3000pcs",
     "_10k",
@@ -66,10 +60,14 @@
     "dbale",
     "carton",
     "noue",
+    "properties",
+    "ingredient_s",
     "limit_U",
+    "method",
     "use_p",
     "solvent",
     "pH",
+    "use",
     "character",
     "maintain",
     "for",
@@ -77,8 +75,11 @@
     "Fcode",
     "Tcode",
     "preretail",
+    "retail",
     "retail1",
     "s3",
+    "s6",
+    "s12",
     "dShelves",
     "nShelves",
     "pic_size",
@@ -101,12 +102,10 @@
     "lo6",
     "lo7",
     "size",
-    "color",
     "g_ml",
     "color_eng",
     "pyname1",
     "pyname2",
-    "cost_u",
     "APHA_Color",
     "CAS_no",
     "Moisture",
@@ -115,6 +114,7 @@
     "application",
     "maintain_eng",
     "origin",
+    "_2name",
     "contain_size",
     "grade",
     "vdo_link",
@@ -132,7 +132,7 @@
     "label_description",
     "daten"
   ],
-  "columnUpdatedAt": 1747925410107,
+  "columnUpdatedAt": 1749015519935,
   "columnWidthMap": {
     "bigwhole": 101,
     "costin": 109,
@@ -175,46 +175,22 @@
       "key": "primaryColumns.eng.computedValue"
     },
     {
-      "key": "primaryColumns.sale.computedValue"
-    },
-    {
-      "key": "primaryColumns.bigwhole.computedValue"
-    },
-    {
-      "key": "primaryColumns.wholes.computedValue"
-    },
-    {
-      "key": "primaryColumns.properties.computedValue"
-    },
-    {
       "key": "primaryColumns.ingredient.computedValue"
-    },
-    {
-      "key": "primaryColumns.ingredient_s.computedValue"
-    },
-    {
-      "key": "primaryColumns.method.computedValue"
-    },
-    {
-      "key": "primaryColumns.use.computedValue"
-    },
-    {
-      "key": "primaryColumns.retail.computedValue"
-    },
-    {
-      "key": "primaryColumns.s6.computedValue"
-    },
-    {
-      "key": "primaryColumns.s12.computedValue"
     },
     {
       "key": "primaryColumns.pic.computedValue"
     },
     {
-      "key": "primaryColumns._2name.computedValue"
+      "key": "tableData"
     },
     {
-      "key": "tableData"
+      "key": "primaryColumns.costin.computedValue"
+    },
+    {
+      "key": "primaryColumns.color.computedValue"
+    },
+    {
+      "key": "primaryColumns.cost_u.computedValue"
     },
     {
       "key": "primaryColumns.id.computedValue"
@@ -226,9 +202,6 @@
       "key": "primaryColumns.dcode_a.computedValue"
     },
     {
-      "key": "primaryColumns.costin.computedValue"
-    },
-    {
       "key": "primaryColumns.costchina.computedValue"
     },
     {
@@ -236,6 +209,15 @@
     },
     {
       "key": "primaryColumns.transport_cost.computedValue"
+    },
+    {
+      "key": "primaryColumns.sale.computedValue"
+    },
+    {
+      "key": "primaryColumns.bigwhole.computedValue"
+    },
+    {
+      "key": "primaryColumns.wholes.computedValue"
     },
     {
       "key": "primaryColumns._1000pcs.computedValue"
@@ -268,7 +250,16 @@
       "key": "primaryColumns.noue.computedValue"
     },
     {
+      "key": "primaryColumns.properties.computedValue"
+    },
+    {
+      "key": "primaryColumns.ingredient_s.computedValue"
+    },
+    {
       "key": "primaryColumns.limit_U.computedValue"
+    },
+    {
+      "key": "primaryColumns.method.computedValue"
     },
     {
       "key": "primaryColumns.use_p.computedValue"
@@ -278,6 +269,9 @@
     },
     {
       "key": "primaryColumns.pH.computedValue"
+    },
+    {
+      "key": "primaryColumns.use.computedValue"
     },
     {
       "key": "primaryColumns.character.computedValue"
@@ -301,10 +295,19 @@
       "key": "primaryColumns.preretail.computedValue"
     },
     {
+      "key": "primaryColumns.retail.computedValue"
+    },
+    {
       "key": "primaryColumns.retail1.computedValue"
     },
     {
       "key": "primaryColumns.s3.computedValue"
+    },
+    {
+      "key": "primaryColumns.s6.computedValue"
+    },
+    {
+      "key": "primaryColumns.s12.computedValue"
     },
     {
       "key": "primaryColumns.dShelves.computedValue"
@@ -373,9 +376,6 @@
       "key": "primaryColumns.size.computedValue"
     },
     {
-      "key": "primaryColumns.color.computedValue"
-    },
-    {
       "key": "primaryColumns.g_ml.computedValue"
     },
     {
@@ -386,9 +386,6 @@
     },
     {
       "key": "primaryColumns.pyname2.computedValue"
-    },
-    {
-      "key": "primaryColumns.cost_u.computedValue"
     },
     {
       "key": "primaryColumns.APHA_Color.computedValue"
@@ -413,6 +410,9 @@
     },
     {
       "key": "primaryColumns.origin.computedValue"
+    },
+    {
+      "key": "primaryColumns._2name.computedValue"
     },
     {
       "key": "primaryColumns.contain_size.computedValue"
@@ -789,7 +789,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "2name",
       "notation": "standard",
       "originalId": "2name",
@@ -2608,7 +2608,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
+      "columnType": "number",
       "computedValue": "{{Table1Copy4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mini\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -3305,7 +3305,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "s12",
       "notation": "standard",
       "originalId": "s12",
@@ -3373,7 +3373,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "s6",
       "notation": "standard",
       "originalId": "s6",

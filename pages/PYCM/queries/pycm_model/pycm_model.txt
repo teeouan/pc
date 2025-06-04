@@ -1,5 +1,5 @@
 SELECT DISTINCT * 
-FROM model 
+FROM model
 WHERE 
   code LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
   OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
