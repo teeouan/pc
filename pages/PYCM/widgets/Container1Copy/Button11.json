@@ -31,7 +31,7 @@
   "mobileRightColumn": 57,
   "mobileTopRow": 55,
   "needsErrorInfo": false,
-  "onClick": "{{pycmjs.buildHtmlTable();\nsetInterval(() => {\n  // add code here\n}, 5000, '');\nlink.run().then(() => {\n  navigateTo(link.data[0].link, {}, 'NEW_WINDOW');\n});}}",
+  "onClick": "{{pycmjs.buildHtmlTable();\nsetInterval(() => {\n  // add code here\n}, 5000, '');\nlinkpycm.run().then(() => {\n  navigateTo(link.data[0].link, {}, 'NEW_WINDOW');\n});\nresetWidget(\"Container4\", true);}}",
   "originalBottomRow": 59,
   "originalTopRow": 55,
   "parentColumnSpace": 19.5,

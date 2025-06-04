@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "681837a3d01125478949ff12_be885809-53b0-454a-85cb-a92971aa11f3",
-  "id": "PYCM_link",
+  "gitSyncId": "681837a3d01125478949ff12_ecd13102-926d-477f-b55d-b8580eaffed7",
+  "id": "PYCM_linkpycm",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -15,7 +15,7 @@
       "bodyFormData": [
         {
           "key": "html",
-          "value": "{{pricejs.buildHtmlTable.data}}"
+          "value": "{{pycmjs.buildHtmlTable.data}}"
         },
         {
           "key": "user",
@@ -54,7 +54,7 @@
         "key": "bodyFormData[0].value"
       }
     ],
-    "name": "link",
+    "name": "linkpycm",
     "pageId": "PYCM",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
