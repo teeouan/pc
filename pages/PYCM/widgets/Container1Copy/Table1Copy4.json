@@ -1,6 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "allowAddNewRow": true,
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
@@ -168,8 +168,8 @@
   "mobileTopRow": 12,
   "multiRowSelection": true,
   "needsErrorInfo": false,
-  "originalBottomRow": 43,
-  "originalTopRow": 15,
+  "originalBottomRow": 42,
+  "originalTopRow": 14,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,
   "primaryColumnId": "dcode",
