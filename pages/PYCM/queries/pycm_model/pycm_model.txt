@@ -1,4 +1,5 @@
-SELECT DISTINCT * 
+SELECT DISTINCT 
+  code, dcode, name,`retail`,properties, ingredient, method, `for`, ingredient_s, maintain, caution, hashtag
 FROM model
 WHERE 
   code LIKE CONCAT('%', {{Input1Copy.text}}, '%') 

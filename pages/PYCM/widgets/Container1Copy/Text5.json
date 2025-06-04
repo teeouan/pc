@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 67,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,42 +11,45 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.875rem",
+  "fontSize": "3rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "ts5uolk86z",
-  "leftColumn": 2,
+  "leftColumn": 40,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 10,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 18,
-  "mobileTopRow": 6,
+  "mobileBottomRow": 64,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 60,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 6,
+  "originalBottomRow": 64,
+  "originalTopRow": 60,
   "overflow": "NONE",
   "parentColumnSpace": 19.5,
   "parentId": "fnu9tb45qr",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 56,
   "shouldTruncate": false,
-  "text": "ค้นหาชุดเคมีและเบส",
+  "text": "ราคา {{Table1Copy4.selectedRow.retail}} .-",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 6,
+  "topRow": 60,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "y22uuprbok",
-  "widgetName": "Text4"
+  "widgetId": "bbu2b3qspf",
+  "widgetName": "Text5"
 }
