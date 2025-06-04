@@ -4,7 +4,7 @@
   "borderColor": "#18181b",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 55,
+  "bottomRow": 49,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -39,7 +39,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "originalBottomRow": 90,
+  "originalBottomRow": 49,
   "originalTopRow": 45,
   "overflow": "NONE",
   "parentColumnSpace": 19.8125,
@@ -52,7 +52,7 @@
   "text": "{{ \n  [\n    Table1Copy4.selectedRow.name \n      ? \"✨ชื่อสินค้า \" + Table1Copy4.selectedRow.name  \n      : \"\",\n    Table1Copy4.selectedRow.dcode \n      ? \"💖รหัสสินค้า \" + Table1Copy4.selectedRow.dcode  \n      : \"\",\n    Table1Copy4.selectedRow.properties \n      ? \"--สรรพคุณ-- \\n\" + Table1Copy4.selectedRow.properties  \n      : \"\",\n    Table1Copy4.selectedRow.ingredient \n      ? \"--ส่วนผสม -- \\n\" + Table1Copy4.selectedRow.ingredient  \n      : \"\",\n    Table1Copy4.selectedRow.method \n      ? \"--วิธีใช้-- \\n\" + Table1Copy4.selectedRow.method  \n      : \"\",\n    Table1Copy4.selectedRow.for \n      ? \"--เหมาะกับ-- \\n\" + Table1Copy4.selectedRow.for  \n      : \"\",\n    Table1Copy4.selectedRow.ingredient_s \n      ? \"--สารสำคัญ-- \\n\" + Table1Copy4.selectedRow.ingredient_s  \n      : \"\",\n    Table1Copy4.selectedRow.maintain \n      ? \"--วิธีเก็บรักษา--\\n\" + Table1Copy4.selectedRow.maintain  \n      : \"\",\n    Table1Copy4.selectedRow.caution \n      ? `--ข้อควรระวัง--\\n${Table1Copy4.selectedRow.caution}`\n      : \"\",\n    Table1Copy4.selectedRow.hashtag \n      ? Table1Copy4.selectedRow.hashtag \n      : \"\"\n  ]\n  .filter(Boolean)  // ตัด null/undefined/\"\" ออก\n  .join(\"\\n\\n\")     // เชื่อมด้วยบรรทัดเว้น 1 บรรทัด\n}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 48,
+  "topRow": 45,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -492,6 +492,7 @@
   "mobileLeftColumn": 17,
   "mobileRightColumn": 51,
   "mobileTopRow": 19,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
   "onSearchTextChanged": "",
   "onSort": "{{}}",
