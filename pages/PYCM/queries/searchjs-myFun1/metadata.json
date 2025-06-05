@@ -26,7 +26,7 @@
     "fullyQualifiedName": "searchjs.myFun1",
     "name": "myFun1",
     "pageId": "PYCM",
-    "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": false
+    "runBehaviour": "MANUAL",
+    "userSetOnLoad": true
   }
 }

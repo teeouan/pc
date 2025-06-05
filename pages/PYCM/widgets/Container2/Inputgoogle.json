@@ -46,7 +46,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 69,
   "needsErrorInfo": false,
-  "onSubmit": "{{Api2.run().then(() => {});\nApi1.run()}}",
+  "onSubmit": "{{Api2.run().then(() => {\n  searchjs.myFun1();\n});\nApi1.run();}}",
   "onTextChanged": "",
   "originalBottomRow": 13,
   "originalTopRow": 6,
