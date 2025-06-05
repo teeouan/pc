@@ -40,7 +40,7 @@
     "sku",
     "price"
   ],
-  "columnUpdatedAt": 1746281404141,
+  "columnUpdatedAt": 1749110174534,
   "columnWidthMap": {
     "id": 70,
     "images": 72,
@@ -188,7 +188,7 @@
       "label": "images",
       "notation": "standard",
       "originalId": "images",
-      "sticky": "",
+      "sticky": "left",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

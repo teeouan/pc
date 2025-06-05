@@ -25,7 +25,7 @@
       "queryParameters": [
         {
           "key": "q",
-          "value": "{{Inputgoogle.text}}+panyachemipan"
+          "value": "panyachemipan"
         },
         {
           "key": "format",
@@ -41,7 +41,7 @@
         },
         {
           "key": "engines",
-          "value": "google"
+          "value": "google\n"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -55,14 +55,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      },
-      {
-        "key": "queryParameters[0].value"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "name": "Api2",
     "pageId": "PYCM",
     "runBehaviour": "MANUAL",
