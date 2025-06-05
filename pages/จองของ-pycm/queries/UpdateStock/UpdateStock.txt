@@ -8,5 +8,8 @@ SET
   END,
   faccode = CASE
     {{Table1.updatedRows.map((row) => `WHEN id = ${row.id} THEN '${row.updatedFields.faccode !== undefined ? row.updatedFields.faccode : row.allFields.faccode}'`).join('\n')}}
+  END,
+  rmb = CASE
+    {{Table1.updatedRows.map((row) => `WHEN id = ${row.id} THEN '${row.updatedFields.rmb !== undefined ? row.updatedFields.rmb : row.allFields.rmb}'`).join('\n')}}
   END
 WHERE id IN ({{Table1.updatedRows.map((row) => row.id).join(',')}});
