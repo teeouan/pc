@@ -41,7 +41,7 @@
         },
         {
           "key": "engines",
-          "value": "google"
+          "value": "google\n"
         }
       ],
       "timeoutInMillisecond": 10000

@@ -48,9 +48,10 @@
     "engines",
     "positions",
     "score",
-    "category"
+    "category",
+    "img_format"
   ],
-  "columnUpdatedAt": 1749112674437,
+  "columnUpdatedAt": 1749113307802,
   "columnWidthMap": {
     "url": 74
   },
@@ -120,6 +121,9 @@
     },
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.img_format.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -283,6 +287,40 @@
       "label": "engines",
       "notation": "standard",
       "originalId": "engines",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "img_format": {
+      "alias": "img_format",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"img_format\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "img_format",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "img_format",
+      "notation": "standard",
+      "originalId": "img_format",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -672,7 +710,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "url",
-      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow)))) : Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow)) })()}}",
+      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow url)))) : Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow url)) })()}}",
       "currencyCode": "USD",
       "customAlias": "",
       "decimals": 0,
@@ -711,7 +749,7 @@
   "tableData": "{{searchjs.myFun1.data}}",
   "textSize": "0.875rem",
   "topRow": 70,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "0",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
