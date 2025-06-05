@@ -48,10 +48,9 @@
     "engines",
     "positions",
     "score",
-    "category",
-    "img_format"
+    "category"
   ],
-  "columnUpdatedAt": 1749111593901,
+  "columnUpdatedAt": 1749112674437,
   "columnWidthMap": {
     "url": 74
   },
@@ -118,9 +117,6 @@
     },
     {
       "key": "primaryColumns.category.computedValue"
-    },
-    {
-      "key": "primaryColumns.img_format.computedValue"
     },
     {
       "key": "tableData"
@@ -287,40 +283,6 @@
       "label": "engines",
       "notation": "standard",
       "originalId": "engines",
-      "sticky": "",
-      "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "img_format": {
-      "alias": "img_format",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "text",
-      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"img_format\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "img_format",
-      "index": 8,
-      "isCellEditable": true,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": true,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "img_format",
-      "notation": "standard",
-      "originalId": "img_format",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -710,7 +672,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "url",
-      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"])))) : Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"])) })()}}",
+      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow)))) : Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow)) })()}}",
       "currencyCode": "USD",
       "customAlias": "",
       "decimals": 0,
