@@ -5,4 +5,4 @@ WHERE
   code LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
   OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
   OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
-LIMIT 100;
+LIMIT 500;

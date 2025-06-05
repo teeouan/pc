@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT \n  code, dcode, name,`retail`,properties, ingredient, method, `for`, ingredient_s, maintain, caution, hashtag,costin\nFROM model\nWHERE \n  code LIKE CONCAT('%', {{Input1Copy.text}}, '%') \n  OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') \n  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%') \nLIMIT 100;",
+      "body": "SELECT DISTINCT \n  code, dcode, name,`retail`,properties, ingredient, method, `for`, ingredient_s, maintain, caution, hashtag,costin\nFROM model\nWHERE \n  code LIKE CONCAT('%', {{Input1Copy.text}}, '%') \n  OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') \n  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%') \nLIMIT 500;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
