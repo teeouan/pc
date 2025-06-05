@@ -25,7 +25,7 @@
       "queryParameters": [
         {
           "key": "q",
-          "value": "panyachemipan"
+          "value": "{{Inputgoogle.text}} site:panyachemipan.com"
         },
         {
           "key": "format",
@@ -55,7 +55,14 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "name": "Api2",
     "pageId": "PYCM",
     "runBehaviour": "MANUAL",

@@ -1,6 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "allowAddNewRow": true,
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
@@ -41,7 +41,6 @@
     "title",
     "source",
     "resolution",
-    "img_format",
     "engine",
     "parsed_url",
     "thumbnail",
@@ -50,9 +49,9 @@
     "positions",
     "score",
     "category",
-    "filesize"
+    "img_format"
   ],
-  "columnUpdatedAt": 1746492358786,
+  "columnUpdatedAt": 1749111593901,
   "columnWidthMap": {
     "url": 74
   },
@@ -66,9 +65,6 @@
   ],
   "delimiter": ",",
   "dynamicBindingPathList": [
-    {
-      "key": "tableData"
-    },
     {
       "key": "accentColor"
     },
@@ -100,9 +96,6 @@
       "key": "primaryColumns.resolution.computedValue"
     },
     {
-      "key": "primaryColumns.img_format.computedValue"
-    },
-    {
       "key": "primaryColumns.engine.computedValue"
     },
     {
@@ -127,7 +120,10 @@
       "key": "primaryColumns.category.computedValue"
     },
     {
-      "key": "primaryColumns.filesize.computedValue"
+      "key": "primaryColumns.img_format.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -212,12 +208,12 @@
       "horizontalAlignment": "LEFT",
       "id": "content",
       "index": 4,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": false,
       "label": "content",
@@ -299,40 +295,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "filesize": {
-      "alias": "filesize",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "text",
-      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"filesize\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "filesize",
-      "index": 17,
-      "isCellEditable": true,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": true,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "filesize",
-      "notation": "standard",
-      "originalId": "filesize",
-      "sticky": "",
-      "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "img_format": {
       "alias": "img_format",
       "allowCellWrapping": false,
@@ -381,7 +343,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "img_src",
-      "imageSize": "LARGE",
+      "imageSize": "MEDIUM",
       "index": 3,
       "isCellEditable": true,
       "isCellVisible": true,
@@ -417,14 +379,14 @@
       "horizontalAlignment": "LEFT",
       "id": "parsed_url",
       "index": 10,
-      "isCellEditable": true,
-      "isCellVisible": true,
+      "isCellEditable": false,
+      "isCellVisible": false,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "parsed_url",
       "notation": "standard",
       "originalId": "parsed_url",
@@ -587,12 +549,12 @@
       "horizontalAlignment": "LEFT",
       "id": "source",
       "index": 6,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "source",
@@ -723,12 +685,12 @@
       "horizontalAlignment": "LEFT",
       "id": "title",
       "index": 5,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "title",
@@ -748,7 +710,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "url",
-      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"]))}}",
+      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"])))) : Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"])) })()}}",
       "currencyCode": "USD",
       "customAlias": "",
       "decimals": 0,
@@ -784,7 +746,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{ Api2.data.results.slice(0, 50) }}",
+  "tableData": "{{searchjs.myFun1.data}}",
   "textSize": "0.875rem",
   "topRow": 70,
   "totalRecordsCount": 0,

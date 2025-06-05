@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "681837a3d01125478949ff12_93ad9075-54a3-4fd6-a93f-ad5d48f50be1",
+  "id": "PYCM_searchjs",
+  "unpublishedCollection": {
+    "name": "searchjs",
+    "pageId": "PYCM",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
