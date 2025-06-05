@@ -44,9 +44,10 @@
     "print",
     "custom_code",
     "shcode",
-    "note"
+    "note",
+    "shop"
   ],
-  "columnUpdatedAt": 1748330947046,
+  "columnUpdatedAt": 1749095974358,
   "columnWidthMap": {
     "EditActions1": 203,
     "Piece_qtn": 60,
@@ -111,6 +112,9 @@
     },
     {
       "key": "primaryColumns.note.computedValue"
+    },
+    {
+      "key": "primaryColumns.shop.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -526,6 +530,40 @@
       "notation": "standard",
       "originalId": "shcode",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "shop": {
+      "alias": "shop",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"shop\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "shop",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "shop",
+      "notation": "standard",
+      "originalId": "shop",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
