@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * \nFROM model_lot_no1all_master\nWHERE\n  dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n\tOR code LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR nname LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR eng LIKE CONCAT('%', {{Input1Copy.text}}, '%')\nORDER BY dcode\nLIMIT 100;",
+      "body": "SELECT * \nFROM model_lot_no1all_master\nWHERE\n  dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n\tOR code LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR nname LIKE CONCAT('%', {{Input1Copy.text}}, '%')\n  OR eng LIKE CONCAT('%', {{Input1Copy.text}}, '%')\nORDER BY dcode\nLIMIT 500;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

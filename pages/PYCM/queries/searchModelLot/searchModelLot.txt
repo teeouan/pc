@@ -7,4 +7,4 @@ WHERE
   OR nname LIKE CONCAT('%', {{Input1Copy.text}}, '%')
   OR eng LIKE CONCAT('%', {{Input1Copy.text}}, '%')
 ORDER BY dcode
-LIMIT 100;
+LIMIT 500;
