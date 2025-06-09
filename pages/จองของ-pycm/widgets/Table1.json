@@ -50,14 +50,14 @@
   "columnUpdatedAt": 1749095974358,
   "columnWidthMap": {
     "EditActions1": 203,
-    "Piece_qtn": 102,
+    "Piece_qtn": 70,
     "Product_code": 98,
     "custom_code": 94,
     "date": 102,
     "fac_name": 86,
     "faccode": 117,
     "id": 90,
-    "note": 90,
+    "note": 139,
     "print": 119.99999999999999,
     "rmb": 82,
     "shcode": 82

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "681837a3d01125478949ff12_5723cde8-6c5f-4b7e-b53e-74191e0927cf",
+  "id": "PYCM_JSapp",
+  "unpublishedCollection": {
+    "name": "JSapp",
+    "pageId": "PYCM",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "deferredPrompt",
+        "value": "null"
+      }
+    ]
+  }
+}
