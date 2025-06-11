@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "681837a3d01125478949ff12_72947478-ff3c-40f3-a834-fd76496d95bc",
-  "id": "PYCM_checkprice_real",
+  "gitSyncId": "681837a3d01125478949ff12_fc207b08-3c74-4759-b477-452d1cd60756",
+  "id": "PYCM_update_price",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT \n  id,\n  dcode,\n  code,\n  name,\n  retail,\n  pic\nFROM model\nWHERE \n  code LIKE CONCAT('%', {{Input1.text}}, '%') \n  OR dcode LIKE CONCAT('%', {{Input1.text}}, '%') \n  OR name LIKE CONCAT('%', {{Input1.text}}, '%') \nLIMIT 100;\n",
+      "body": "UPDATE model\nSET retail = {{JSONForm1.formData.retail}}\nWHERE id = {{JSONForm1.formData.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "name": "checkprice_real",
+    "name": "update_price",
     "pageId": "PYCM",
     "runBehaviour": "MANUAL",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }

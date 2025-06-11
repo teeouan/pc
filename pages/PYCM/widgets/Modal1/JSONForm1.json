@@ -1,0 +1,392 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 57,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.dcode.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.dcode.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.dcode.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.code.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.code.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.code.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.retail.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.retail.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.retail.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pic.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pic.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pic.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "21t8fdx8ck",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 66,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "onSubmit": "{{update_price.run().then(() => {\n  checkprice_real.run();\n});}}",
+  "originalBottomRow": 64,
+  "originalTopRow": 1,
+  "parentColumnSpace": 6.9375,
+  "parentId": "bn0ikx8w9b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "code": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "code",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.code))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "code",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Code",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "code",
+          "position": 2,
+          "sourceData": "py-เครื่องกวนครีม 50 ลิตร 2 ชั้น"
+        },
+        "dcode": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "dcode",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.dcode))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "dcode",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Dcode",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "dcode",
+          "position": 1,
+          "sourceData": 8697
+        },
+        "id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "id",
+          "position": 0,
+          "sourceData": 16924
+        },
+        "name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "name",
+          "position": 3,
+          "sourceData": "เครื่องกวนครีม 50 ลิตร ปรับอุณหภูมิ ถังสแตนเลส 2 ชั้น 220v หม้อตุ๋น หม้อต้ม"
+        },
+        "pic": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "pic",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.pic))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "pic",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Pic",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "pic",
+          "position": 5,
+          "sourceData": "https://mydbale.com/wp-content/uploads/2024/04/432997730_122135075294054462_5316837371298541448_n.jpg"
+        },
+        "retail": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "accessor": "retail",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.retail))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "retail",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Retail",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "retail",
+          "position": 4,
+          "sourceData": 99
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "code": "py-เครื่องกวนครีม 50 ลิตร 2 ชั้น",
+        "dcode": 11848,
+        "id": 36322,
+        "name": "เครื่องกวนครีม 50 ลิตร ปรับอุณหภูมิ ถังสแตนเลส 2 ชั้น 220v หม้อตุ๋น หม้อต้ม",
+        "pic": "https://mydbale.com/wp-content/uploads/2024/04/432997730_122135075294054462_5316837371298541448_n.jpg",
+        "retail": 45000
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{Table1Copy3.selectedRow}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "แก้ราคา",
+  "topRow": 1,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "vqm9vfhxhc",
+  "widgetName": "JSONForm1"
+}

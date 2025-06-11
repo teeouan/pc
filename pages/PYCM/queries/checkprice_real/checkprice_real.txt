@@ -1,5 +1,11 @@
-SELECT DISTINCT * 
-FROM model 
+SELECT DISTINCT 
+  id,
+  dcode,
+  code,
+  name,
+  retail,
+  pic
+FROM model
 WHERE 
   code LIKE CONCAT('%', {{Input1.text}}, '%') 
   OR dcode LIKE CONCAT('%', {{Input1.text}}, '%') 
