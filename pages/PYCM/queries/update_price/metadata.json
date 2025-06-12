@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE model\nSET retail = {{JSONForm1.formData.retail}}\nWHERE id = {{JSONForm1.formData.id}};",
+      "body": "UPDATE model\nSET retail = {{JSONForm1.formData.retail}},\n    pic = \"{{JSONForm1.formData.pic}}\"\n\nWHERE id = {{JSONForm1.formData.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

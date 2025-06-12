@@ -1,3 +1,5 @@
 UPDATE model
-SET retail = {{JSONForm1.formData.retail}}
+SET retail = {{JSONForm1.formData.retail}},
+    pic = "{{JSONForm1.formData.pic}}"
+
 WHERE id = {{JSONForm1.formData.id}};
