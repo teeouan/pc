@@ -410,7 +410,7 @@
       },
       "menuItemsSource": "STATIC",
       "notation": "standard",
-      "onClick": "{{showModal(Pycm_postmodal.name);}}",
+      "onClick": "{{showModal(Pycm_postmodal.name).then(() => {\n  pycm_post.run();\n});}}",
       "originalId": "dcode",
       "sticky": "",
       "textColor": "",

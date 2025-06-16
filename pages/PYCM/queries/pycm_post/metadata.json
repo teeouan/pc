@@ -30,6 +30,6 @@
     "name": "pycm_post",
     "pageId": "PYCM",
     "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
