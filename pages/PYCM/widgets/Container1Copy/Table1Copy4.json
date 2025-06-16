@@ -137,6 +137,9 @@
       "key": "primaryColumns.dcode.buttonLabel"
     },
     {
+      "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
       "key": "primaryColumns.dcode.boxShadow"
     },
     {
@@ -144,9 +147,6 @@
     },
     {
       "key": "primaryColumns.dcode.buttonColor"
-    },
-    {
-      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [

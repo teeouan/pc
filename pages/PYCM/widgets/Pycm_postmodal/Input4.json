@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 7,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -15,11 +15,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
-    {
-      "key": "onSubmit"
-    },
     {
       "key": "onTextChanged"
     }
@@ -30,35 +26,34 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "3oqbz3yhos",
-  "label": "ค้นหา",
+  "key": "zs5xddon0w",
+  "label": "ใส่รหัส",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 20,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 21,
-  "mobileLeftColumn": 12,
-  "mobileRightColumn": 32,
-  "mobileTopRow": 14,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onSubmit": "",
-  "onTextChanged": "{{pycm_model.run();}}",
-  "parentColumnSpace": 19.8125,
-  "parentId": "yzza8zi37h",
+  "onTextChanged": "{{pycm_post.run()}}",
+  "parentColumnSpace": 18.625,
+  "parentId": "oe9kqzcy6c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": false,
+  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 40,
+  "rightColumn": 37,
   "showStepArrows": false,
-  "topRow": 3,
+  "topRow": 0,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "3wua2626rg",
-  "widgetName": "Input1Copy"
+  "widgetId": "qudosmar7v",
+  "widgetName": "Input4"
 }

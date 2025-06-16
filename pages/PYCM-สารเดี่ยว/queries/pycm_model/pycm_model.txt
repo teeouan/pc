@@ -1,8 +1,0 @@
-SELECT DISTINCT 
-  code, dcode, name,`retail`,properties, ingredient, method, `for`, ingredient_s, maintain, caution, hashtag,costin
-FROM model
-WHERE 
-  code LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
-  OR dcode LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
-  OR name LIKE CONCAT('%', {{Input1Copy.text}}, '%') 
-LIMIT 500;

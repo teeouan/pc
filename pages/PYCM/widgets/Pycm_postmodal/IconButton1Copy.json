@@ -13,6 +13,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -31,7 +32,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(Pycm_postmodal.name);}}",
+  "onClick": "{{closeModal(Pycm_postmodal.name).then(() => {\n  resetWidget(\"Input4\", true);\n});\nsetInterval(() => {\n  // add code here\n}, 5000, '');}}",
   "parentId": "oe9kqzcy6c",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",

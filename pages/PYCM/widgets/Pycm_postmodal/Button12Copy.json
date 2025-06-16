@@ -15,6 +15,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -32,12 +33,12 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(Pycm_postmodal.name);}}",
+  "onClick": "{{closeModal(Pycm_postmodal.name).then(() => {\n  resetWidget(\"Input4\", true);\n});\nsetInterval(() => {\n  // add code here\n}, 5000, '');}}",
   "parentId": "oe9kqzcy6c",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
+  "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 47,
   "text": "Close",

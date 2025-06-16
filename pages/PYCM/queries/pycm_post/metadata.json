@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \nid,\nnid, \ndate, \nscode,\nwcode,\ndcode,\nweight,\nprice_qtn,\nnotice\n\nFROM pycm_post\nWHERE \n  dcode LIKE CONCAT('%', {{Table1Copy4.selectedRow.pycm_post}}, '%') \nLIMIT 100;\n",
+      "body": "SELECT\n  id,\n  nid,\n  date,\n  scode,\n  wcode,\n  dcode,\n  weight,\n  price_qtn,\n  notice\nFROM pycm_post\nWHERE\n  dcode = '{{Table1Copy4.selectedRow.pycm_post}}'\n  OR dcode = '{{Input4.text}}'\nORDER BY weight DESC\nLIMIT 100;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

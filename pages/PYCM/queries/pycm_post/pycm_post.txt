@@ -1,15 +1,16 @@
-SELECT 
-id,
-nid, 
-date, 
-scode,
-wcode,
-dcode,
-weight,
-price_qtn,
-notice
-
+SELECT
+  id,
+  nid,
+  date,
+  scode,
+  wcode,
+  dcode,
+  weight,
+  price_qtn,
+  notice
 FROM pycm_post
-WHERE 
-  dcode LIKE CONCAT('%', {{Table1Copy4.selectedRow.pycm_post}}, '%') 
+WHERE
+  dcode = '{{Table1Copy4.selectedRow.pycm_post}}'
+  OR dcode = '{{Input4.text}}'
+ORDER BY weight DESC
 LIMIT 100;
