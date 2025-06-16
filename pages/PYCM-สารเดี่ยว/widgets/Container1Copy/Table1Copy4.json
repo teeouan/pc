@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 45,
+  "bottomRow": 42,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -46,9 +46,10 @@
     "hashtag",
     "retail",
     "costin",
+    "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1749026156688,
+  "columnUpdatedAt": 1750062647005,
   "columnWidthMap": {
     "bigwhole": 101,
     "caution": 115,
@@ -131,6 +132,21 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.dcode.buttonLabel"
+    },
+    {
+      "key": "primaryColumns.dcode.boxShadow"
+    },
+    {
+      "key": "primaryColumns.dcode.borderRadius"
+    },
+    {
+      "key": "primaryColumns.dcode.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -144,7 +160,11 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.dcode.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "flexVerticalAlignment": "start",
@@ -170,7 +190,7 @@
   "needsErrorInfo": false,
   "originalBottomRow": 42,
   "originalTopRow": 14,
-  "parentId": "fnu9tb45qr",
+  "parentId": "yzza8zi37h",
   "parentRowSpace": 10,
   "primaryColumnId": "dcode",
   "primaryColumns": {
@@ -316,14 +336,52 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "customColumn1": {
+      "alias": "pycm_post",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1Copy4.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"dcode\"])) :  currentRow[\"dcode\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 92,
+      "isCellEditable": false,
+      "isCellVisible": false,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "pycm_post",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "dcode": {
       "alias": "dcode",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table1Copy4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table1Copy4.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table1Copy4.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonLabel": "{{(() => { const tableData = Table1Copy4.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"dcode\"])) :  currentRow[\"dcode\"] })()}}",
       "cellBackground": "",
-      "columnType": "number",
+      "columnType": "button",
       "computedValue": "{{(() => { const tableData = Table1Copy4.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"dcode\"])) :  currentRow[\"dcode\"] })()}}",
       "currencyCode": "USD",
+      "customAlias": "",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
@@ -340,7 +398,19 @@
       "isSaveVisible": true,
       "isVisible": true,
       "label": "dcode",
+      "menuItems": {
+        "menuItem5swp5djkes": {
+          "id": "menuItem5swp5djkes",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item",
+          "widgetId": "3ldhqm3q6q"
+        }
+      },
+      "menuItemsSource": "STATIC",
       "notation": "standard",
+      "onClick": "{{showModal(Pycm_postmodal.name);}}",
       "originalId": "dcode",
       "sticky": "",
       "textColor": "",
@@ -662,13 +732,14 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{pycm_model.data}}",
   "textSize": "0.875rem",
-  "topRow": 17,
+  "topRow": 14,
   "totalRecordsCount": "0",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "v2dp3j53cd",
+  "widgetId": "b6zdp46fkg",
   "widgetName": "Table1Copy4"
 }

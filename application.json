@@ -61,6 +61,10 @@
     {
       "id": "maya_purchase",
       "isDefault": false
+    },
+    {
+      "id": "PYCM-สารเดี่ยว",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

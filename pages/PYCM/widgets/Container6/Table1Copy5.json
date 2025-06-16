@@ -100,6 +100,7 @@
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
+  "defaultSearchText": "{{Table1Copy4.selectedRow.dcode}}",
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": "[\n  0\n]",
   "delimiter": ",",
@@ -256,6 +257,9 @@
     },
     {
       "key": "primaryColumns.retail.computedValue"
+    },
+    {
+      "key": "defaultSearchText"
     }
   ],
   "dynamicPropertyPathList": [

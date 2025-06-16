@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 57,
+  "bottomRow": 54,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -35,7 +35,7 @@
   "originalBottomRow": 54,
   "originalTopRow": 50,
   "parentColumnSpace": 19.8125,
-  "parentId": "fnu9tb45qr",
+  "parentId": "yzza8zi37h",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -44,9 +44,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 51,
   "text": "Copyข้อความ",
-  "topRow": 53,
+  "topRow": 50,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "amedcy5aw9",
+  "widgetId": "au6prc2in4",
   "widgetName": "Button1"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 70,
+  "bottomRow": 11,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,45 +11,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "3rem",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "ts5uolk86z",
-  "leftColumn": 40,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 64,
-  "mobileLeftColumn": 40,
-  "mobileRightColumn": 56,
-  "mobileTopRow": 60,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 73,
-  "originalTopRow": 60,
+  "originalBottomRow": 11,
+  "originalTopRow": 6,
   "overflow": "NONE",
   "parentColumnSpace": 19.5,
-  "parentId": "fnu9tb45qr",
+  "parentId": "yzza8zi37h",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 56,
+  "rightColumn": 18,
   "shouldTruncate": false,
-  "text": "ราคา {{Table1Copy4.selectedRow.retail||null}} .-",
+  "text": "ค้นหาชุดเคมีและเบส",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 63,
+  "topRow": 6,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "bbu2b3qspf",
-  "widgetName": "Text5"
+  "widgetId": "cyqhty21p8",
+  "widgetName": "Text4"
 }
