@@ -1,0 +1,15 @@
+SELECT 
+id,
+nid, 
+date, 
+scode,
+wcode,
+dcode,
+weight,
+price_qtn,
+notice
+
+FROM pycm_post
+WHERE 
+  dcode LIKE CONCAT('%', {{Table1Copy4.selectedRow.pycm_post}}, '%') 
+LIMIT 100;

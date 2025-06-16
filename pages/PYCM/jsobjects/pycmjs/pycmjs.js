@@ -57,7 +57,7 @@ export default {
         <div class="product-title">${row.name || ''}</div>
         <table>
           ${addRow('ชื่อสินค้า', row.name)}
-          ${addRow('รหัสสินค้า', row.dcode)}
+          ${addRow('รหัสสินค้า', row.pycm_post)}
           ${addRow('--สรรพคุณ--', row.properties)}
           ${addRow('--ส่วนผสม--', row.ingredient)}
           ${addRow('--วิธีใช้--', row.method)}

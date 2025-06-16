@@ -30,7 +30,7 @@
   "mobileTopRow": 18,
   "needsErrorInfo": false,
   "onClick": "{{}}",
-  "parentId": "8gkgo5ul1e",
+  "parentId": "oe9kqzcy6c",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
@@ -41,6 +41,6 @@
   "topRow": 63,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "jknqjm12os",
+  "widgetId": "jqx3dl5upy",
   "widgetName": "Button13"
 }
