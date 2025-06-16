@@ -12,5 +12,5 @@ FROM pycm_post
 WHERE
   dcode = '{{Table1Copy4.selectedRow.pycm_post}}'
   OR dcode = '{{Input4.text}}'
-ORDER BY weight DESC
+ORDER BY weight ASC
 LIMIT 100;
