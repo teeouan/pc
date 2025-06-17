@@ -61,6 +61,10 @@
     {
       "id": "maya_purchase",
       "isDefault": false
+    },
+    {
+      "id": "เซ็นลายนิ้วมือ",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
