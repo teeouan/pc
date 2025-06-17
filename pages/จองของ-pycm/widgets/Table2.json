@@ -39,9 +39,10 @@
     "pcs",
     "price",
     "total",
-    "xn__22ca6djd7d3fsd5a3c"
+    "xn__22ca6djd7d3fsd5a3c",
+    "file"
   ],
-  "columnUpdatedAt": 1750138706010,
+  "columnUpdatedAt": 1750141802572,
   "columnWidthMap": {
     "id": 60,
     "idcode": 83,
@@ -93,6 +94,12 @@
     },
     {
       "key": "primaryColumns.xn__22ca6djd7d3fsd5a3c.computedValue"
+    },
+    {
+      "key": "primaryColumns.file.computedValue"
+    },
+    {
+      "key": "primaryColumns.file.displayText"
     }
   ],
   "dynamicPropertyPathList": [
@@ -152,6 +159,38 @@
       "label": "dcode",
       "notation": "standard",
       "originalId": "dcode",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "file": {
+      "alias": "file",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow.file )) :  currentRow.file  })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "displayText": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow.file.map(f => f.file.url) )) :  currentRow.file.map(f => f.file.url)  })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "file",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "file",
+      "notation": "standard",
+      "originalId": "file",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
