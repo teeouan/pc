@@ -22,7 +22,16 @@
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "select",
+          "value": "*"
+        },
+        {
+          "key": "order",
+          "value": "createtime.desc"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
