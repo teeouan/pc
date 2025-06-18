@@ -10,6 +10,8 @@ SELECT
     s.print,
     s.`note`,
     s.`shop`,
+		s.`Cash-Bank`,
+    s.`vat-bill no`, 
     c.name AS fac_name,
     m.code
 FROM
@@ -20,7 +22,8 @@ WHERE
     s.shcode = 218666
     AND s.shop = 'pycm-im'
     -- AND s.faccode != 0
-    AND s.`Product code` NOT IN (17797, 7140, 0)  -- เอารหัสนี้ออกไป
+		-- AND s.`Product code` NOT IN (17797, 7140, 0)  -- เอารหัสนี้ออกไป
+    AND s.`Product code` NOT IN (0)  -- เอารหัสนี้ออกไป
 ORDER BY
     s.id DESC
 LIMIT 3000;
