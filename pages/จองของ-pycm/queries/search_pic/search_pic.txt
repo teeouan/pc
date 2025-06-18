@@ -1,0 +1,7 @@
+SELECT 
+dcode,
+pic
+
+
+from model
+WHERE dcode = {{Table1.selectedRow["Product code"]}}

@@ -63,9 +63,6 @@
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
-      "key": "tableData"
-    },
-    {
       "key": "accentColor"
     },
     {
@@ -103,6 +100,9 @@
     },
     {
       "key": "primaryColumns.createtime.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -110,7 +110,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "flexVerticalAlignment": "start",
@@ -132,6 +136,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 185,
   "needsErrorInfo": false,
+  "onRowSelected": "{{search_picCopy.run()}}",
   "originalBottomRow": 143,
   "originalTopRow": 89,
   "parentId": "0",

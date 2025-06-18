@@ -132,6 +132,9 @@
     },
     {
       "key": "primaryColumns.faccode.onSubmit"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": true,
@@ -156,6 +159,7 @@
   "mobileTopRow": 9,
   "multiRowSelection": false,
   "needsErrorInfo": false,
+  "onRowSelected": "{{search_pic.run()}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
