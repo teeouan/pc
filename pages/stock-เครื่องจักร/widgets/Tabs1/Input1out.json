@@ -5,7 +5,7 @@
   "borderRadius": "1.5rem",
   "bottomRow": 23,
   "boxShadow": "none",
-  "defaultText": "เข้า {{appsmith.store.user}} {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
+  "defaultText": "ออก {{appsmith.store.user}} {{ (() => {\n  const d = new Date();\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n})() }}\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

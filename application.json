@@ -65,6 +65,14 @@
     {
       "id": "เซ็นลายนิ้วมือ",
       "isDefault": false
+    },
+    {
+      "id": "เทสการอัพข้อมูลลงตาราง",
+      "isDefault": false
+    },
+    {
+      "id": "social",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

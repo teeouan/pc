@@ -23,7 +23,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "otncgc4zx2",
-  "label": "จำนวนเข้าสต็อค",
+  "label": "จำนวนออกสต็อค",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

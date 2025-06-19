@@ -1,0 +1,8 @@
+SELECT 
+scode,
+detail,
+password,
+note
+
+
+FROM social LIMIT 10;
