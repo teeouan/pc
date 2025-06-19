@@ -25,7 +25,7 @@
     "fullyQualifiedName": "JSObject1.checkLogin",
     "name": "checkLogin",
     "pageId": "maya_purchase",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }
