@@ -51,7 +51,7 @@
   "needsErrorInfo": false,
   "onBlur": "",
   "onFocus": "",
-  "onTextChanged": "{{model1.run()}}",
+  "onTextChanged": "{{model1Copy.run()}}",
   "parentColumnSpace": 10.83203125,
   "parentId": "lfpkwxib0b",
   "parentRowSpace": 10,

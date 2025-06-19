@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "{{ kadname1.data[0].name }}",
+  "text": "{{ kadname1Copy.data[0].name }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,

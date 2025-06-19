@@ -30,6 +30,8 @@
   "mobileTopRow": 29,
   "needsErrorInfo": false,
   "onClick": "{{ \n  resetWidget('ModelInput1out', true); \n  resetWidget('Fcodeinputout', true); \n  resetWidget('Select1out', true);\n\nresetWidget('sale_inputout', true);\n\nresetWidget('In_qtnInput1out', true);\n}}",
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
   "parentColumnSpace": 10.83203125,
   "parentId": "lfpkwxib0b",
   "parentRowSpace": 10,
