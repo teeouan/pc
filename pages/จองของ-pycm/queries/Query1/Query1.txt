@@ -13,6 +13,7 @@ SELECT
 		s.`Cash-Bank`,
     s.`vat-bill no`, 
     c.name AS fac_name,
+		s.`tcost`,
     m.code
 FROM
     `2020`.`mayastock-in` s
